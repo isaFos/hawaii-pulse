@@ -1,9 +1,9 @@
 
 # State
-state: "California"
+state: "Hawaii"
 
 # State FIPS
-state_fips: "06"
+state_fips: "15"
 
 # Start date for recent Bureau of Labor Statistics unemployment data
 date_bls: "2020-01-01"
