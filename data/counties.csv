@@ -1,4 +1,12 @@
 area,fips,date_start,date_end,variable,code,response,n,pct
+Hawaii County,15001,2020-07-02,2020-07-07,curfoodsuf,3,Sometimes not enough to eat,10733,6.8
+Hawaii County,15001,2020-07-02,2020-07-07,curfoodsuf,4,Often not enough to eat,3526,2.2
+Honolulu County,15003,2020-07-02,2020-07-07,curfoodsuf,3,Sometimes not enough to eat,48036,6.3
+Honolulu County,15003,2020-07-02,2020-07-07,curfoodsuf,4,Often not enough to eat,15781,2.1
+Kauai County,15007,2020-07-02,2020-07-07,curfoodsuf,3,Sometimes not enough to eat,6320,11.2
+Kauai County,15007,2020-07-02,2020-07-07,curfoodsuf,4,Often not enough to eat,2076,3.7
+Maui County,15009,2020-07-02,2020-07-07,curfoodsuf,3,Sometimes not enough to eat,16311,12.5
+Maui County,15009,2020-07-02,2020-07-07,curfoodsuf,4,Often not enough to eat,5359,4.1
 Hawaii County,15001,2020-06-25,2020-06-30,curfoodsuf,3,Sometimes not enough to eat,5909,3.8
 Hawaii County,15001,2020-06-25,2020-06-30,curfoodsuf,4,Often not enough to eat,2410,1.5
 Honolulu County,15003,2020-06-25,2020-06-30,curfoodsuf,3,Sometimes not enough to eat,26448,3.5
