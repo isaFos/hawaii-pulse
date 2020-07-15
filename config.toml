@@ -2,11 +2,11 @@ theme = "er"
 canonifyurls = true
 relativeURLs = true
 prettyURLs = false
-baseURL = "https://stanford-datalab.github.io/covid-19-ca"
+baseURL = "https://isaFos.github.io/hawaii-pulse"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 languageCode = "en-us"
-title = "California Weekly Pulse"
+title = "Hawaii Weekly Pulse"
 toc = false
 
 [permalinks]
