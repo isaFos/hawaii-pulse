@@ -13,7 +13,7 @@
     <item>
       <title>About</title>
       <link>/about/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
       <description>This site was made using the code template created by the Data Challenge Lab team and is based off of their initial analysis for the state of California.
@@ -23,7 +23,7 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Hawaii</title>
       <link>/state/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/state/</guid>
       <description>Overview Food insufficiency  Rate over time Geography Demographics Reasons Severity Free groceries or meals  Unemployment  Rate over time Geography  Unemployment and food insufficiency   Overview The data on this site is derived from the U.S. Census Bureau Household Pulse Survey (HPS) and the U.S. Bureau of Labor Statistics Local Area Unemployment Statistics (LAUS).</description>
@@ -32,7 +32,7 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Hawaii County</title>
       <link>/hawaii/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/hawaii/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
@@ -42,7 +42,7 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Honolulu County</title>
       <link>/honolulu/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/honolulu/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
@@ -52,7 +52,7 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Kauai County</title>
       <link>/kauai/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/kauai/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
@@ -62,7 +62,7 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Maui County</title>
       <link>/maui/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/maui/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
