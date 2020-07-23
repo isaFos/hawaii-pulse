@@ -4,6 +4,7 @@ date: "`r Sys.Date()`"
 output: blogdown::html_page
 ---
 
-This site was made using the code template created by the Data Challenge Lab team and is based off of their initial analysis for the state of [California](https://stanford-datalab.github.io/covid-19-ca/). 
+This site was made using the code template created by the Data Challenge Lab team and is based off of their initial analysis for the state of California.
 
 The Hawaii site is maintained by the unBox team. If you have any feedback, comments, or suggestions for improvements to this site, please [email us](mailto:isfoster96@gmail.com).
+
