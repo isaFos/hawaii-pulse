@@ -13,7 +13,7 @@
     <item>
       <title>About</title>
       <link>/about/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
       <description>This site was made using the code template created by the Stanford Data Challenge Lab team and is based off of their initial analysis for the state of California.
@@ -23,7 +23,7 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Hawaii</title>
       <link>/state/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/state/</guid>
       <description>Overview Food insufficiency  Rate over time Geography Demographics Reasons Severity Free groceries or meals  Unemployment  Rate over time Geography  Unemployment and food insufficiency   Overview The data on this site is derived from the U.S. Census Bureau Household Pulse Survey (HPS) and the U.S. Bureau of Labor Statistics Local Area Unemployment Statistics (LAUS).</description>
@@ -32,41 +32,41 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Hawaii County</title>
       <link>/hawaii/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/hawaii/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;9.9&#34;,&#34;9.0&#34;,&#34;5.3&#34;,&#34;7.5&#34;,&#34;5.9&#34;,&#34;6.4&#34;,&#34;7.1&#34;,&#34;8.0&#34;,&#34;6.3&#34;,&#34;7.1&#34;,&#34;9.1&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[15500,14300,8320,11800,9240,10100,11200,12700,9920,11200,14500]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;9.1&#34;,&#34;9.9&#34;,&#34;9.0&#34;,&#34;5.3&#34;,&#34;7.5&#34;,&#34;5.9&#34;,&#34;6.5&#34;,&#34;7.1&#34;,&#34;8.0&#34;,&#34;6.3&#34;,&#34;7.1&#34;,&#34;9.2&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[14300,15600,14300,8350,11900,9270,10100,11200,12700,9960,11300,14500]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
     </item>
     
     <item>
       <title>Honolulu County</title>
       <link>/honolulu/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/honolulu/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;9.1&#34;,&#34;8.4&#34;,&#34;4.9&#34;,&#34;6.9&#34;,&#34;5.4&#34;,&#34;5.9&#34;,&#34;6.5&#34;,&#34;7.4&#34;,&#34;5.8&#34;,&#34;6.6&#34;,&#34;8.4&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[69600,63800,37200,52900,41400,45200,49900,56700,44400,50400,64700]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;8.3&#34;,&#34;9.1&#34;,&#34;8.2&#34;,&#34;4.8&#34;,&#34;6.8&#34;,&#34;5.4&#34;,&#34;5.9&#34;,&#34;6.5&#34;,&#34;7.5&#34;,&#34;5.9&#34;,&#34;6.6&#34;,&#34;8.4&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[63500,69200,63400,37000,52600,41100,45000,49600,57000,44600,50600,65000]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
     </item>
     
     <item>
       <title>Kauai County</title>
       <link>/kauai/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/kauai/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;16.2&#34;,&#34;14.9&#34;,&#34; 8.7&#34;,&#34;12.4&#34;,&#34; 9.7&#34;,&#34;10.6&#34;,&#34;11.6&#34;,&#34;13.3&#34;,&#34;10.4&#34;,&#34;11.8&#34;,&#34;15.1&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[9160,8400,4900,6960,5440,5950,6570,7460,5840,6620,8510]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;15.1&#34;,&#34;16.5&#34;,&#34;15.0&#34;,&#34; 8.7&#34;,&#34;12.5&#34;,&#34; 9.8&#34;,&#34;10.7&#34;,&#34;11.8&#34;,&#34;13.2&#34;,&#34;10.3&#34;,&#34;11.7&#34;,&#34;15.0&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[8510,9260,8500,4960,7050,5510,6020,6650,7420,5810,6590,8470]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
     </item>
     
     <item>
       <title>Maui County</title>
       <link>/maui/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/maui/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;18.1&#34;,&#34;16.6&#34;,&#34; 9.7&#34;,&#34;13.7&#34;,&#34;10.8&#34;,&#34;11.8&#34;,&#34;13.0&#34;,&#34;14.8&#34;,&#34;11.6&#34;,&#34;13.1&#34;,&#34;16.9&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[23600,21700,12600,18000,14000,15400,17000,19300,15100,17100,22000]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults reporting food insufficiency&#34;:[&#34;16.8&#34;,&#34;18.4&#34;,&#34;16.9&#34;,&#34; 9.8&#34;,&#34;13.9&#34;,&#34;10.9&#34;,&#34;11.9&#34;,&#34;13.1&#34;,&#34;14.5&#34;,&#34;11.3&#34;,&#34;12.9&#34;,&#34;16.6&#34;],&#34;Estimated number of adults reporting food insufficiency&#34;:[21900,23900,21900,12800,18200,14200,15500,17100,19000,14900,16800,21600]},&#34;columns&#34;:[{&#34;accessor&#34;:&#34;Survey end date&#34;,&#34;name&#34;:&#34;Survey end date&#34;,&#34;type&#34;:&#34;character&#34;,&#34;format&#34;:{&#34;cell&#34;:{&#34;separators&#34;:true},&#34;aggregated&#34;:{&#34;separators&#34;:true}},&#34;align&#34;:&#34;left&#34;},{&#34;accessor&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;,&#34;name&#34;:&#34;Estimated percentage of adults reporting food insufficiency&#34;</description>
     </item>
     
   </channel>
