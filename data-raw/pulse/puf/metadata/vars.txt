@@ -22,6 +22,7 @@ wrkloss
 expctloss
 prifoodsuf
 curfoodsuf
+childfood
 foodsufrsn1
 foodsufrsn2
 foodsufrsn3

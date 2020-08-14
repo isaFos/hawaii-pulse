@@ -16,6 +16,10 @@ curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat"
 curfoodsuf,3,Sometimes not enough to eat
 curfoodsuf,4,Often not enough to eat
 curfoodsuf,NA,Did not report
+childfood,1,Often true
+childfood,2,Sometimes true
+childfood,3,Never true
+childfood,NA,Did not report
 egender,1,Male
 egender,2,Female
 est_msa,12060,Atlanta-Sandy Springs-Alpharetta

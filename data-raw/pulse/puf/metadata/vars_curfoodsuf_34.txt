@@ -4,6 +4,7 @@ rhispanic
 rrace
 rhispanic_rrace
 thhld_numkid
+childfood
 foodsufrsn1
 foodsufrsn2
 foodsufrsn3
