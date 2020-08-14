@@ -1,7 +1,7 @@
-# Estimate food insecurity for counties.
+# Estimate adult food insecurity for counties.
 
 # Author: Sara Altman, Bill Behrman
-# Version: 2020-07-13
+# Version: 2020-07-31
 
 # Libraries
 library(tidyverse)
@@ -34,7 +34,6 @@ population <-
         area_type = col_character(),
         area = col_character(),
         fips = col_character(),
-        year = col_double(),
         population = col_double(),
         population_0_17 = col_double(),
         population_18p = col_double()
@@ -51,7 +50,9 @@ weeks <-
         year = col_double(),
         week = col_double(),
         date_start = col_date(format = ""),
-        date_end = col_date(format = "")
+        date_end = col_date(format = ""),
+        release_table = col_date(format = ""),
+        release_puf = col_date(format = "")
       )
   )
 
@@ -74,7 +75,11 @@ state <-
         pct = col_double()
       )
   ) %>%
-  filter(area_type == "State", variable == "curfoodsuf", code %in% 3:4) %>%
+  filter(
+    area_type == "State",
+    variable == "curfoodsuf",
+    code %in% c(3:4, NA)
+  ) %>%
   select(-n_error, -pct)
 
 # Unemployment data for counties
@@ -155,8 +160,24 @@ distribute_state <- function(date_end_, data) {
   data %>%
     left_join(v, by = "date_start") %>%
     group_by(variable, code) %>%
-    mutate(n = distribute(first(n_state), unemployment)) %>%
+    mutate(
+      n =
+        case_when(
+          !is.na(code) ~ distribute(first(n_state), unemployment),
+          is.na(code) ~ distribute(first(n_state), population_18p)
+        )
+    ) %>%
     ungroup() %>%
+    group_by(fips, variable) %>%
+    mutate(
+      pct =
+        case_when(
+          !is.na(code) ~ 100 * n / (population_18p - sum(n[is.na(code)])),
+          is.na(code) ~ NA_real_
+        )
+    ) %>%
+    ungroup() %>%
+    drop_na(code) %>%
     transmute(
       area,
       fips,
@@ -165,16 +186,21 @@ distribute_state <- function(date_end_, data) {
       variable,
       code,
       response,
-      n
+      n,
+      pct
     )
 }
 
-# Estimate food insecurity for counties
+# Estimate adult food insecurity for counties
 unemployment %>%
   distinct(area, fips) %>%
   expand_grid(date_start = dates_pulse$date_start) %>%
   left_join(dates_pulse, by = "date_start") %>%
   left_join(date_closest, by = "date_end") %>%
+  left_join(
+    population %>% select(fips, population_18p),
+    by = "fips"
+  ) %>%
   left_join(
     unemployment %>% select(fips, date, unemployment),
     by = c("fips", "date")
@@ -182,11 +208,5 @@ unemployment %>%
   group_by(date_end) %>%
   nest() %>%
   pmap_df(distribute_state) %>%
-  left_join(
-    population %>% select(fips, population_18p),
-    by = "fips"
-  ) %>%
-  mutate(pct = (100 * n / population_18p) %>% round(digits = 1)) %>%
-  select(-population_18p) %>%
   arrange(desc(date_end), fips, variable, code) %>%
   write_csv(file_out)

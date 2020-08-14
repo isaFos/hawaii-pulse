@@ -1,7 +1,7 @@
 # Calculate estimates from raw Household Pulse data.
 
 # Author: Bill Behrman
-# Version: 2020-07-13
+# Version: 2020-07-31
 
 # Libraries
 library(tidyverse)
@@ -24,8 +24,6 @@ file_vars_curfoodsuf_34 <-
   str_c(dir_pulse_puf, "/metadata/vars_curfoodsuf_34.txt")
   # Data recodes
 file_recodes <- str_c(dir_pulse_puf, "/metadata/recodes.csv")
-  # Population data
-file_population <- here::here("data/population.csv")
   # Output file
 file_out <- here::here("data/state.csv")
 
@@ -43,7 +41,9 @@ weeks <-
         year = col_double(),
         week = col_double(),
         date_start = col_date(format = ""),
-        date_end = col_date(format = "")
+        date_end = col_date(format = ""),
+        release_table = col_date(format = ""),
+        release_puf = col_date(format = "")
       )
   )
 
@@ -59,23 +59,6 @@ vars_curfoodsuf_34 <- read_lines(file_vars_curfoodsuf_34)
 # Data recodes
 recodes <- read_csv(file_recodes, col_types = cols(.default = col_character()))
 
-# Population data for state
-population <-
-  file_population %>%
-  read_csv(
-    col_types =
-      cols(
-        area_type = col_character(),
-        area = col_character(),
-        fips = col_character(),
-        year = col_double(),
-        population = col_double(),
-        population_0_17 = col_double(),
-        population_18p = col_double()
-      )
-  ) %>%
-  filter(area_type == "State")
-
 # Files with PUF raw data
 files_puf <-
   fs::dir_ls(path = dir_pulse_puf, recurse = TRUE, regexp = "wk\\d+\\.rds$")
@@ -84,7 +67,7 @@ files_puf <-
 files_table <-
   fs::dir_ls(path = dir_pulse_table, recurse = TRUE, regexp = "wk\\d+\\.rds$")
 
-# Estimate number of individuals for each variable response
+# Estimate number of adults for each variable response
 estimate <- function(data, ...) {
   data %>%
     group_by(...) %>%
@@ -99,8 +82,8 @@ estimate <- function(data, ...) {
     select(..., n, n_error)
 }
 
-# Read in raw data and calculate estimates for state
-process <- function(file) {
+# Read in raw PUF data and calculate estimates for state
+process_puf <- function(file) {
 
   cli::cat_line(
     cli::rule(
@@ -116,9 +99,11 @@ process <- function(file) {
     as.integer()
 
   # Read in raw data
+  data <- read_rds(file)
+  vars_data <- names(data)
   data <-
-    read_rds(file) %>%
-    select(all_of(vars))
+    data %>%
+    select(all_of(intersect(vars_data, vars)))
   assertthat::assert_that(
     n_distinct(data$week) == 1,
     msg = message("Data does not contain one week")
@@ -140,7 +125,7 @@ process <- function(file) {
     msg = message("Survey week not in weeks metadata")
   )
 
-  # Estimate number of total individuals for state
+  # Estimate number of total adults for state
   state_total <-
     data %>%
     estimate(week, est_st) %>%
@@ -153,13 +138,16 @@ process <- function(file) {
       n_error,
       area_type = "State"
     )
+  state_total_n <-
+    state_total %>%
+    pull(n)
 
-  # Estimate number of individuals for each variable response for state and
+  # Estimate number of adults for each variable response for state and
   # calculate percentages
   state <-
     data %>%
     pivot_longer(
-      cols = all_of(vars_all),
+      cols = all_of(intersect(vars_data, vars_all)),
       names_to = "variable",
       values_to = "code"
     ) %>%
@@ -177,32 +165,35 @@ process <- function(file) {
             100 * n / sum(n[variable == "tenure" & code %in% 2:3]),
           str_detect(variable, "^mortconf$") & code %in% 1:5 ~
             100 * n / sum(n[variable == "tenure" & code %in% 2:3]),
-          TRUE ~ 100 * n / n[variable == "total"]
+          is.na(code) ~ 100 * n / state_total_n,
+          TRUE ~ NA_real_
         )
-    )
+    ) %>%
+    group_by(variable) %>%
+    mutate(
+      pct =
+        if_else(
+          !is.na(pct),
+          pct,
+          100 * n / (state_total_n - sum(n[is.na(code)]))
+        )
+    ) %>%
+    ungroup()
 
-  # Estimate number of food insecure individuals for state
-  state_food_insecure_total <-
+  # Estimate number of food insecure adults for state
+  state_food_insecure_total_n <-
     data %>%
     filter(curfoodsuf %in% 3:4) %>%
     estimate(week, est_st) %>%
-    transmute(
-      week,
-      fips = est_st,
-      variable = "total",
-      code = NA_integer_,
-      n,
-      n_error,
-      area_type = "State"
-    )
+    pull(n)
 
-  # Estimate number of food insecure individuals for each variable response for
+  # Estimate number of food insecure adults for each variable response for
   # state and calculate percentages
   state_food_insecure <-
     data %>%
     filter(curfoodsuf %in% 3:4) %>%
     pivot_longer(
-      cols = all_of(vars_curfoodsuf_34),
+      cols = all_of(intersect(vars_data, vars_curfoodsuf_34)),
       names_to = "variable",
       values_to = "code"
     ) %>%
@@ -213,12 +204,9 @@ process <- function(file) {
     estimate(week, est_st, variable, code) %>%
     rename(fips = est_st) %>%
     mutate(area_type = "State") %>%
-    bind_rows(state_food_insecure_total) %>%
-    mutate(pct = 100 * n / n[variable == "total"]) %>%
-    filter(variable != "total")
+    mutate(pct = 100 * n / state_food_insecure_total_n)
 
-  # Combine estimates, recode, and adjust numbers of individuals to population
-  # for state
+  # Combine estimates and recode
   state %>%
     bind_rows(state_food_insecure) %>%
     left_join(
@@ -247,17 +235,6 @@ process <- function(file) {
         select(-year),
       by = "week"
     ) %>%
-    left_join(
-      population %>%
-        select(fips, population_18p),
-      by = "fips"
-    ) %>%
-    group_by(fips) %>%
-    mutate(
-      n = n * population_18p / n[variable == "total"],
-      n_error = n_error * population_18p / n[variable == "total"]
-    ) %>%
-    ungroup() %>%
     mutate(across(c(n, n_error), round)) %>%
     select(
       area_type,
@@ -278,27 +255,15 @@ process <- function(file) {
 # Calculate estimates for all PUF files
 puf <-
   files_puf %>%
-  map_dfr(process)
+  map_dfr(process_puf)
 
-# Read in table data, restrict to dates not in PUF data, and adjust numbers of
-# individuals to populations for state
+# Read in table data and restrict to dates not in PUF data
 table <-
   files_table %>%
   map_dfr(read_rds) %>%
   filter(area == params$state, !date_end %in% unique(puf$date_end)) %>%
-  left_join(
-    population %>%
-      select(fips, population_18p),
-    by = "fips"
-  ) %>%
-  group_by(fips) %>%
-  mutate(
+  transmute(
     area_type = "State",
-    n = (n * population_18p / n[variable == "total"]) %>% round()
-  ) %>%
-  ungroup() %>%
-  select(
-    area_type,
     area,
     fips,
     date_start,

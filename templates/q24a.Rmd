@@ -1,0 +1,401 @@
+---
+params:
+  area: "Hawaii"
+title: "Hawaii"
+date: "`r Sys.Date()`"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r message=FALSE, warning=FALSE}
+# Libraries
+library(tidyverse)
+library(leaflet)
+library(leaflet.extras)
+library(lubridate)
+library(reactable)
+library(rstanarm)
+library(sf)
+
+# Parameters
+  # Parameters for state and data
+file_data_params <- here::here("data/params.yml")
+  # Household Pulse data for state
+file_hps <- here::here("data/state.csv")
+  # Population data
+file_population <- here::here("data/population.csv")
+  # Unemployment data
+file_unemployment <- here::here("data/unemployment.csv")
+  # Food insufficiency estimates for counties
+file_counties <- here::here("data/counties.csv")
+  # Unemployment and food insufficiency data from Food Security Supplement
+file_unemployment_fi_fss <- 
+  here::here("data/unemployment_food_insufficiency_fss.csv")
+  # First month for Pulse path
+FIRST_PULSE_MONTH <- ymd("2020-05-01")
+  # Number of bins for maps  
+N_BINS <- 5
+  # Map color palette
+MAP_COLOR_PALETTE <- "YlOrRd"
+  # Map height
+MAP_HEIGHT <- 650
+  # Age group breaks
+AGE_BREAKS <- c(18, seq(29, 79, 10), Inf)
+  # Age group labels
+AGE_LABELS <- 
+  c("18 - 29", str_c(seq(30, 70, 10), " - ", seq(39, 79, 10)), "80+")
+
+#===============================================================================
+
+# Parameters for state and data
+data_params <- yaml::read_yaml(file_data_params)
+
+# Population data for counties
+population <- 
+  file_population %>% 
+  read_csv(
+    col_types =
+      cols(
+        area_type = col_character(),
+        area = col_character(),
+        fips = col_character(),
+        year = col_double(),
+        population = col_double(),
+        population_0_17 = col_double(),
+        population_18p = col_double()
+      )
+  ) %>% 
+  filter(area_type == "County")
+
+# Household Pulse data for state
+hps <- 
+  file_hps %>% 
+  read_csv(
+    col_types =
+      cols(
+        area_type = col_character(),
+        area = col_character(),
+        fips = col_character(),
+        date_start = col_date(format = ""),
+        date_end = col_date(format = ""),
+        variable = col_character(),
+        code = col_double(),
+        response = col_character(),
+        n = col_double(),
+        n_error = col_double(),
+        pct = col_double()
+      )
+  ) %>% 
+  filter(area_type == "State")
+
+# Last dates for Household Pulse data
+hps_date_start <- max(hps$date_start)
+hps_date_end <- max(hps$date_end)
+
+# Last date for Household Pulse PUF data
+hps_puf_date_end <- 
+  hps %>% 
+  drop_na(n_error) %>% 
+  pull(date_end) %>% 
+  max()
+
+# Unemployment data
+unemployment <- 
+  file_unemployment %>% 
+  read_csv(
+    col_types =
+    cols(
+      area_type = col_character(),
+      area = col_character(),
+      fips = col_character(),
+      date = col_date(format = ""),
+      status = col_character(),
+      labor_force = col_double(),
+      employment = col_double(),
+      unemployment = col_double(),
+      unemployment_rate = col_double()
+    )
+  )
+
+# Last date with statewide unemployment data
+unemployment_state_date <- 
+  unemployment %>% 
+  filter(area_type == "State") %>% 
+  pull(date) %>% 
+  max()
+
+# Last date with full county-level unemployment data
+n_counties <- 
+  unemployment %>% 
+  filter(area_type == "County") %>% 
+  pull(fips) %>% 
+  n_distinct()
+unemployment_county_date <- 
+  unemployment %>% 
+  filter(area_type == "County") %>% 
+  group_by(date) %>% 
+  filter(n() == n_counties) %>% 
+  pull(date) %>% 
+  max()
+
+# Food insufficiency estimates for county
+counties <- 
+  file_counties %>% 
+  read_csv(
+    col_types = 
+      cols(
+        area = col_character(),
+        fips = col_character(),
+        date_start = col_date(format = ""),
+        date_end = col_date(format = ""),
+        variable = col_character(),
+        code = col_double(),
+        response = col_character(),
+        n = col_double(),
+        pct = col_double()
+      )
+  )
+
+# County boundaries for map
+county_boundaries <-
+  ussf::boundaries(
+    geography = "county",
+    resolution = "5m",
+    projection = "longlat"
+  ) %>% 
+  filter(STATEFP == data_params$state_fips)
+
+# State unemployment and food insufficiency data from Food Security Supplement
+unemployment_fi_fss <- 
+  file_unemployment_fi_fss %>% 
+  read_csv(
+    col_types = 
+      cols(
+        area = col_character(),
+        fips = col_character(),
+        date = col_date(format = ""),
+        labor_force = col_double(),
+        employment = col_double(),
+        unemployment = col_double(),
+        unemployment_rate = col_double(),
+        food_insufficiency_n = col_double(),
+        food_insufficiency_pct = col_double()
+      )
+  ) %>% 
+  filter(area == params$area)
+
+# State food insufficiency from most recent Food Security Supplement
+fi_fss_last <- 
+  unemployment_fi_fss %>% 
+  transmute(
+    year = year(date),
+    pct = food_insufficiency_pct
+  ) %>% 
+  filter(year == min(2019, max(year)))
+
+# State unemployment for months of Household Pulse Survey
+unemployment_hps <- 
+  unemployment %>% 
+  filter(
+    area == params$area,
+    date >= FIRST_PULSE_MONTH
+  ) %>% 
+  mutate(unemployment_rate = 100 * unemployment / labor_force) %>% 
+  select(-area_type, -status)
+
+# State food insufficiency for months of Household Pulse Survey
+fi_hps <- 
+  hps %>% 
+  filter(
+    variable == "curfoodsuf",
+    str_detect(response, "not enough to eat")
+  ) %>% 
+  group_by(area, fips, date_start, date_end) %>% 
+  summarize(across(c(n, pct), sum, .names = "food_insufficiency_{col}")) %>% 
+  ungroup()
+
+# Household Pulse Survey weeks that correspond to unemployment survey weeks
+unemployment_fi_dates <- 
+  tibble(
+    date = unemployment_hps$date,
+    date_end = 
+      make_date(year = year(date), month = month(date), day = 12L) %>% 
+      map(~ min(fi_hps$date_end[. <= fi_hps$date_end])) %>% 
+      reduce(c)
+  )
+
+# State unemployment and food insufficiency for months of Household Pulse Survey
+unemployment_fi_hps <- 
+  unemployment_fi_dates %>% 
+  left_join(unemployment_hps, by = "date") %>% 
+  left_join(fi_hps %>% select(-area, -fips), by = "date_end") %>% 
+  relocate(area, fips, date, date_start, date_end)
+
+# State unemployment and food insufficiency from Food Security Supplement and
+# for Household Pulse Survey
+unemployment_fi_all <- 
+  unemployment_fi_fss %>% 
+  select(date, unemployment_rate, food_insufficiency_pct) %>% 
+  bind_rows(
+    unemployment_fi_hps %>% 
+      select(date, unemployment_rate, food_insufficiency_pct)
+  )
+
+#===============================================================================
+
+# Month of date
+month <- function(date) {
+  format(date, "%B")
+}
+
+# Month and day of date
+month_day <- function(date) {
+  format(date, "%B %e") %>%
+    str_replace("  ", " ")
+}
+
+# Choropleth map
+choropleth <- function(data, var, population, tooltip, legend_title) {
+  
+  values <- 
+    data %>% 
+    pull({{var}})
+    
+  # bins <-
+  #   Hmisc::wtd.quantile(
+  #     values,
+  #     weights = data %>% pull({{population}}),
+  #     probs = seq(0, 1, length.out = N_BINS + 1)
+  #   )
+  bins <-
+    values[!is.na(values)] %>% 
+    sort() %>% 
+    c(0, .)
+  
+  values[near(values, min(bins))] <- min(bins)
+  values[near(values, max(bins))] <- max(bins)
+
+  fill_color <- 
+    colorBin(
+      palette = MAP_COLOR_PALETTE,
+      domain = values,
+      bins = bins,
+      right = TRUE
+    )
+  
+  tooltips <-
+    data %>% 
+    str_glue_data(tooltip) %>% 
+    map(htmltools::HTML)
+  
+  data %>%
+    leaflet(
+      height = MAP_HEIGHT,
+      options = leafletOptions(minZoom = 3)
+    ) %>%
+    setMapWidgetStyle(list(background = "white")) %>% 
+    addProviderTiles(
+      provider = "MapBox",
+      options =
+        providerTileOptions(
+          id = "mapbox.light",
+          accessToken = Sys.getenv("MAPBOX_ACCESS_TOKEN")
+        )
+    ) %>%
+    addPolygons(
+      color = "black",
+      weight = 0.2,
+      opacity = 1,
+      fillColor = ~ fill_color(values),
+      fillOpacity = 1,
+      smoothFactor = 0,
+      label = tooltips,
+      labelOptions =
+        labelOptions(
+          style = list("font-weight" = "normal", padding = "3px 8px"),
+          textsize = "15px",
+          direction = "auto"
+        ),
+      highlightOptions =
+        highlightOptions(
+          color = "black",
+          weight = 1.5,
+          bringToFront = TRUE
+        )
+    ) %>%
+    addLegend(
+      position = "topright",
+      pal = fill_color,
+      values = values,
+      opacity = 1,
+      labFormat = labelFormat(suffix = "%"),
+      title = legend_title
+    )
+}
+```
+
+```{r fig.asp=0.8}
+v <- 
+  hps %>% 
+  filter(variable == "childfood") #!is.na(code)
+
+v %>% 
+  ggplot(aes(date_end, pct, color = fct_reorder2(response, date_end, pct))) +
+  geom_line() +
+  geom_point() +
+  # scale_x_date(
+  #   breaks = v$date_end %>% unique() %>% sort(),
+  #   minor_breaks = NULL,
+  #   date_labels = "%b %e"
+  # ) +
+  # scale_y_continuous(
+  #   breaks = scales::breaks_width(10),
+  #   labels = scales::label_percent(accuracy = 1, scale = 1),
+  #   limits = c(0, NA)
+  # ) +
+  # guides(color = guide_legend(ncol = 2)) +
+theme(legend.position = "bottom") +
+  labs(
+    title = "Children not eating enough because we couldn't afford enough food",
+    x = "Survey end date",
+    y = "",
+    color = NULL,
+    caption = "Source: Census Bureau, Household Pulse Survey."
+  )
+```
+
+```{r fig.asp=0.8}
+v <- 
+  hps %>% 
+  filter(variable == "childfood_curfoodsuf_34") #!is.na(code)
+
+v %>% 
+  ggplot(aes(date_end, pct, color = fct_reorder2(response, date_end, pct))) +
+  geom_line() +
+  geom_point() +
+  scale_x_date(
+    breaks = v$date_end %>% unique() %>% sort(),
+    minor_breaks = NULL,
+    date_labels = "%b %e"
+  ) +
+  scale_y_continuous(
+    breaks = scales::breaks_width(10),
+    labels = scales::label_percent(accuracy = 1, scale = 1),
+    limits = c(0, NA)
+  ) +
+  guides(color = guide_legend(ncol = 2)) +
+  theme(legend.position = "bottom") +
+  labs(
+    title = "Children not eating enough because we couldn't afford enough food",
+    subtitle = "Food insufficient households",
+    x = "Survey end date",
+    y = "",
+    color = NULL,
+    caption = "Source: Census Bureau, Household Pulse Survey."
+  )
+```
