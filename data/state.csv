@@ -1,4 +1,29 @@
 area_type,area,fips,date_start,date_end,variable,code,response,n,n_error,pct
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,534781,NA,49.82916041217671
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",340211,NA,31.699758392663636
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,3,Sometimes not enough to eat,68980,NA,6.427332843223581
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,4,Often not enough to eat,22046,NA,2.0541748312801835
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,NA,Did not report,107211,NA,9.98957352065589
+State,Hawaii,15,2020-08-19,2020-08-31,freefood,1,Yes,113165,NA,10.54434794438093
+State,Hawaii,15,2020-08-19,2020-08-31,freefood,2,No,853148,NA,79.49356567889984
+State,Hawaii,15,2020-08-19,2020-08-31,freefood,NA,Did not report,106917,NA,9.962179553478334
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,1,No confidence,38405,NA,NA
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,2,Slight confidence,68997,NA,NA
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,3,Moderate confidence,211719,NA,NA
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,4,High confidence,342706,NA,NA
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,5,Payment is/will be deferred,5911,NA,NA
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,NA,Did not report,405492,NA,37.782430403949206
+State,Hawaii,15,2020-08-19,2020-08-31,total,NA,Total,1073229,NA,100
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree1,1,Free meals through the school or other programs aimed at children,27711,NA,24.487253125966507
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree2,1,Food pantry or food bank,23180,NA,20.48336499801175
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree3,1,Home-delivered meal service like Meals on Wheels,6429,NA,5.681085141165554
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree4,1,"Church, synagogue, temple, mosque or other religious organization",23581,NA,20.837714841161137
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree5,1,Shelter or soup kitchen,0,NA,0
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree6,1,Other community program,40957,NA,36.19228560067159
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree7,1,"Family, friends, or neighbors",52418,NA,46.31997525736756
+State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,1,Yes,559802,NA,52.1605361018012
+State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,2,No,511271,NA,47.6385748055634
+State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,NA,Did not report,2156,NA,0.20088909263540214
 State,Hawaii,15,2020-07-16,2020-07-21,childfood,1,Often true,14384,6651,8.519799874874646
 State,Hawaii,15,2020-07-16,2020-07-21,childfood,2,Sometimes true,41689,6929,24.69230808492065
 State,Hawaii,15,2020-07-16,2020-07-21,childfood,3,Never true,112761,13031,66.78789204020471
