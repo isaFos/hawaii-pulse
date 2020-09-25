@@ -1,37 +1,234 @@
 area_type,area,fips,date_start,date_end,variable,code,response,n,n_error,pct
-State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,534781,NA,49.82916041217671
-State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",340211,NA,31.699758392663636
-State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,3,Sometimes not enough to eat,68980,NA,6.427332843223581
-State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,4,Often not enough to eat,22046,NA,2.0541748312801835
-State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,NA,Did not report,107211,NA,9.98957352065589
-State,Hawaii,15,2020-08-19,2020-08-31,freefood,1,Yes,113165,NA,10.54434794438093
-State,Hawaii,15,2020-08-19,2020-08-31,freefood,2,No,853148,NA,79.49356567889984
-State,Hawaii,15,2020-08-19,2020-08-31,freefood,NA,Did not report,106917,NA,9.962179553478334
-State,Hawaii,15,2020-08-19,2020-08-31,mortconf,1,No confidence,38405,NA,NA
-State,Hawaii,15,2020-08-19,2020-08-31,mortconf,2,Slight confidence,68997,NA,NA
-State,Hawaii,15,2020-08-19,2020-08-31,mortconf,3,Moderate confidence,211719,NA,NA
-State,Hawaii,15,2020-08-19,2020-08-31,mortconf,4,High confidence,342706,NA,NA
-State,Hawaii,15,2020-08-19,2020-08-31,mortconf,5,Payment is/will be deferred,5911,NA,NA
-State,Hawaii,15,2020-08-19,2020-08-31,mortconf,NA,Did not report,405492,NA,37.782430403949206
-State,Hawaii,15,2020-08-19,2020-08-31,total,NA,Total,1073229,NA,100
-State,Hawaii,15,2020-08-19,2020-08-31,wherefree1,1,Free meals through the school or other programs aimed at children,27711,NA,24.487253125966507
-State,Hawaii,15,2020-08-19,2020-08-31,wherefree2,1,Food pantry or food bank,23180,NA,20.48336499801175
-State,Hawaii,15,2020-08-19,2020-08-31,wherefree3,1,Home-delivered meal service like Meals on Wheels,6429,NA,5.681085141165554
-State,Hawaii,15,2020-08-19,2020-08-31,wherefree4,1,"Church, synagogue, temple, mosque or other religious organization",23581,NA,20.837714841161137
-State,Hawaii,15,2020-08-19,2020-08-31,wherefree5,1,Shelter or soup kitchen,0,NA,0
-State,Hawaii,15,2020-08-19,2020-08-31,wherefree6,1,Other community program,40957,NA,36.19228560067159
-State,Hawaii,15,2020-08-19,2020-08-31,wherefree7,1,"Family, friends, or neighbors",52418,NA,46.31997525736756
-State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,1,Yes,559802,NA,52.1605361018012
-State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,2,No,511271,NA,47.6385748055634
-State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,NA,Did not report,2156,NA,0.20088909263540214
-State,Hawaii,15,2020-07-16,2020-07-21,childfood,1,Often true,14384,6651,8.519799874874646
-State,Hawaii,15,2020-07-16,2020-07-21,childfood,2,Sometimes true,41689,6929,24.69230808492065
-State,Hawaii,15,2020-07-16,2020-07-21,childfood,3,Never true,112761,13031,66.78789204020471
-State,Hawaii,15,2020-07-16,2020-07-21,childfood,NA,Did not report,904395,15137,84.26858083936756
-State,Hawaii,15,2020-07-16,2020-07-21,childfood_curfoodsuf_34,1,Often true,11466,6083,10.960798598642574
-State,Hawaii,15,2020-07-16,2020-07-21,childfood_curfoodsuf_34,2,Sometimes true,17130,5222,16.37517397448289
-State,Hawaii,15,2020-07-16,2020-07-21,childfood_curfoodsuf_34,3,Never true,16903,7917,16.158349385829997
-State,Hawaii,15,2020-07-16,2020-07-21,childfood_curfoodsuf_34,NA,Did not report,59110,12961,56.50567804104454
+State,Hawaii,15,2020-09-02,2020-09-14,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,547375,NA,51.002628516374415
+State,Hawaii,15,2020-09-02,2020-09-14,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",357403,NA,33.30165323523684
+State,Hawaii,15,2020-09-02,2020-09-14,curfoodsuf,3,Sometimes not enough to eat,50727,NA,4.726577459237498
+State,Hawaii,15,2020-09-02,2020-09-14,curfoodsuf,4,Often not enough to eat,13862,NA,1.2916162347457998
+State,Hawaii,15,2020-09-02,2020-09-14,curfoodsuf,NA,Did not report,103862,NA,9.677524554405444
+State,Hawaii,15,2020-09-02,2020-09-14,freefood,1,Yes,115301,NA,10.743373501834185
+State,Hawaii,15,2020-09-02,2020-09-14,freefood,2,No,851037,NA,79.29686954042427
+State,Hawaii,15,2020-09-02,2020-09-14,freefood,NA,Did not report,106891,NA,9.959756957741545
+State,Hawaii,15,2020-09-02,2020-09-14,mortconf,1,No confidence,51689,NA,NA
+State,Hawaii,15,2020-09-02,2020-09-14,mortconf,2,Slight confidence,100601,NA,NA
+State,Hawaii,15,2020-09-02,2020-09-14,mortconf,3,Moderate confidence,156207,NA,NA
+State,Hawaii,15,2020-09-02,2020-09-14,mortconf,4,High confidence,360763,NA,NA
+State,Hawaii,15,2020-09-02,2020-09-14,mortconf,5,Payment is/will be deferred,10590,NA,NA
+State,Hawaii,15,2020-09-02,2020-09-14,mortconf,NA,Did not report,393378,NA,36.65368714412302
+State,Hawaii,15,2020-09-02,2020-09-14,total,NA,Total,1073229,NA,100
+State,Hawaii,15,2020-09-02,2020-09-14,wherefree1,1,Free meals through the school or other programs aimed at children,20070,NA,17.40661399294022
+State,Hawaii,15,2020-09-02,2020-09-14,wherefree2,1,Food pantry or food bank,26006,NA,22.55487810166434
+State,Hawaii,15,2020-09-02,2020-09-14,wherefree3,1,Home-delivered meal service like Meals on Wheels,4576,NA,3.968742682197032
+State,Hawaii,15,2020-09-02,2020-09-14,wherefree4,1,"Church, synagogue, temple, mosque or other religious organization",32777,NA,28.42733367446943
+State,Hawaii,15,2020-09-02,2020-09-14,wherefree5,1,Shelter or soup kitchen,545,NA,0.4726758657774
+State,Hawaii,15,2020-09-02,2020-09-14,wherefree6,1,Other community program,51168,NA,44.37775908274863
+State,Hawaii,15,2020-09-02,2020-09-14,wherefree7,1,"Family, friends, or neighbors",41136,NA,35.677053971778214
+State,Hawaii,15,2020-09-02,2020-09-14,wrkloss,1,Yes,604230,NA,56.30019315542163
+State,Hawaii,15,2020-09-02,2020-09-14,wrkloss,2,No,463443,NA,43.18211677097805
+State,Hawaii,15,2020-09-02,2020-09-14,wrkloss,NA,Did not report,5556,NA,0.517690073600322
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,534781,21124,55.359309998800995
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",340211,20155,35.2178734722339
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,3,Sometimes not enough to eat,68980,10232,7.140639399875691
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,4,Often not enough to eat,22046,6983,2.2821771290893964
+State,Hawaii,15,2020-08-19,2020-08-31,curfoodsuf,NA,Did not report,107211,16963,9.989552273240196
+State,Hawaii,15,2020-08-19,2020-08-31,egender,1,Male,524979,0,48.91584181941117
+State,Hawaii,15,2020-08-19,2020-08-31,egender,2,Female,548250,0,51.08415818058882
+State,Hawaii,15,2020-08-19,2020-08-31,egender_curfoodsuf_34,1,Male,41265,9107,45.333119029692014
+State,Hawaii,15,2020-08-19,2020-08-31,egender_curfoodsuf_34,2,Female,49761,8596,54.66688097030797
+State,Hawaii,15,2020-08-19,2020-08-31,expctloss,1,Yes,444049,22872,41.49173291854554
+State,Hawaii,15,2020-08-19,2020-08-31,expctloss,2,No,626162,23070,58.50826708145444
+State,Hawaii,15,2020-08-19,2020-08-31,expctloss,NA,Did not report,3017,1135,0.28113540811556414
+State,Hawaii,15,2020-08-19,2020-08-31,foodconf,1,Not at all confident,56336,7554,6.181328415334885
+State,Hawaii,15,2020-08-19,2020-08-31,foodconf,2,Somewhat confident,287123,19415,31.50384130931069
+State,Hawaii,15,2020-08-19,2020-08-31,foodconf,3,Moderately confident,234322,19461,25.710383577156506
+State,Hawaii,15,2020-08-19,2020-08-31,foodconf,4,Very confident,333609,16586,36.60444669819791
+State,Hawaii,15,2020-08-19,2020-08-31,foodconf,NA,Did not report,161839,16490,15.07962921080497
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn1_curfoodsuf_34,1,Couldn't afford to buy more food,83644,12344,91.89041199519697
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn1_curfoodsuf_34,NA,Did not report,7382,2034,8.109588004803033
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn2_curfoodsuf_34,1,Couldn’t get out to buy food,15899,7602,17.46613576622471
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn2_curfoodsuf_34,NA,Did not report,75127,11202,82.53386423377529
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn3_curfoodsuf_34,1,Afraid to go or didn’t want to go out to buy food,26529,7283,29.144650149265615
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn3_curfoodsuf_34,NA,Did not report,64497,9651,70.85534985073438
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn4_curfoodsuf_34,1,Couldn’t get groceries or meals delivered to me,7788,4448,8.555752276611779
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn4_curfoodsuf_34,NA,Did not report,83238,11284,91.44424772338823
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn5_curfoodsuf_34,1,The stores didn’t have the food I wanted,14086,5761,15.475201948973128
+State,Hawaii,15,2020-08-19,2020-08-31,foodsufrsn5_curfoodsuf_34,NA,Did not report,76940,11126,84.52479805102688
+State,Hawaii,15,2020-08-19,2020-08-31,freefood,1,Yes,113165,14942,11.710978042803847
+State,Hawaii,15,2020-08-19,2020-08-31,freefood,2,No,853148,18698,88.28902195719616
+State,Hawaii,15,2020-08-19,2020-08-31,freefood,NA,Did not report,106917,15017,9.962144302909499
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,1,No confidence,38405,8057,5.73172636517719
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,2,Slight confidence,68997,10521,10.297447032143383
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,3,Moderate confidence,211719,22118,31.598101331991
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,4,High confidence,342706,18048,51.147441943930914
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,5,Payment is/will be deferred,5911,1986,0.8822035034937931
+State,Hawaii,15,2020-08-19,2020-08-31,mortconf,NA,Did not report,405492,17509,37.78240079419151
+State,Hawaii,15,2020-08-19,2020-08-31,prifoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,650368,26608,66.60271792446848
+State,Hawaii,15,2020-08-19,2020-08-31,prifoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",264715,24196,27.108850393477933
+State,Hawaii,15,2020-08-19,2020-08-31,prifoodsuf,3,Sometimes not enough to eat,39376,7593,4.032395843735108
+State,Hawaii,15,2020-08-19,2020-08-31,prifoodsuf,4,Often not enough to eat,22030,7441,2.2560358383184758
+State,Hawaii,15,2020-08-19,2020-08-31,prifoodsuf,NA,Did not report,96740,15708,9.013910982385596
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic,1,"No, not of Hispanic, Latino, or Spanish origin",980499,0,91.35971912800538
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic,2,"Yes, of Hispanic, Latino, or Spanish origin",92730,0,8.640280871994607
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_curfoodsuf_34,1,"No, not of Hispanic, Latino, or Spanish origin",77000,11261,84.59146839559347
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_curfoodsuf_34,2,"Yes, of Hispanic, Latino, or Spanish origin",14026,5057,15.408531604406535
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,11,Non-hispanic White,243920,0,22.727675081551364
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,12,Non-hispanic Black,38718,11131,3.6076594401818136
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,13,Non-hispanic Asian,379778,21667,35.38649164970779
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,14,Non-hispanic Other,318082,21300,29.637892956564407
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,21,Hispanic White,44174,9638,4.115974366911738
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,22,Hispanic Black,2197,951,0.20472841836768677
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,23,Hispanic Asian,14109,5254,1.3145912778169853
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace,24,Hispanic Other,32250,6180,3.0049868088981975
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace_curfoodsuf_34,11,Non-hispanic White,21875,6661,24.03172925074165
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace_curfoodsuf_34,13,Non-hispanic Asian,29687,7935,32.61351144228316
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace_curfoodsuf_34,14,Non-hispanic Other,25438,5574,27.946227702568656
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace_curfoodsuf_34,21,Hispanic White,2556,2407,2.8076708175626015
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace_curfoodsuf_34,23,Hispanic Asian,2358,1594,2.5903756028681917
+State,Hawaii,15,2020-08-19,2020-08-31,rhispanic_rrace_curfoodsuf_34,24,Hispanic Other,9112,3380,10.010485183975742
+State,Hawaii,15,2020-08-19,2020-08-31,rrace,1,"White, Alone",288094,9638,26.843649448463104
+State,Hawaii,15,2020-08-19,2020-08-31,rrace,2,"Black, Alone",40916,11305,3.8123878585495
+State,Hawaii,15,2020-08-19,2020-08-31,rrace,3,"Asian, Alone",393887,23092,36.70108292752478
+State,Hawaii,15,2020-08-19,2020-08-31,rrace,4,"Any other race alone, or race in combination",350333,20995,32.64287976546261
+State,Hawaii,15,2020-08-19,2020-08-31,rrace_curfoodsuf_34,1,"White, Alone",24431,6913,26.839400068304247
+State,Hawaii,15,2020-08-19,2020-08-31,rrace_curfoodsuf_34,3,"Asian, Alone",32045,8198,35.20388704515135
+State,Hawaii,15,2020-08-19,2020-08-31,rrace_curfoodsuf_34,4,"Any other race alone, or race in combination",34551,6660,37.9567128865444
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1932,NA,1500,817,0.13978806526773702
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1933,NA,232,172,0.02158740002873127
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1934,NA,6790,3586,0.6326334162140907
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1935,NA,1773,821,0.16518968919519467
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1936,NA,1457,1171,0.13571258789244559
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1937,NA,3215,1511,0.2995850571886232
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1938,NA,1989,874,0.18535565311811597
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1939,NA,3129,2081,0.2915476022847648
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1940,NA,2449,1358,0.22823414127867625
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1941,NA,8700,5326,0.8106793701296023
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1942,NA,5138,1497,0.4787244448144629
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1943,NA,7709,3351,0.7182699021552457
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1944,NA,7998,2420,0.7452095281358555
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1945,NA,11062,4916,1.030742440366112
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1946,NA,12776,4711,1.1903829675925106
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1947,NA,17585,5643,1.6385534724485398
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1948,NA,17671,4223,1.6465148020451246
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1949,NA,21300,7123,1.9846739859175802
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1950,NA,26593,6566,2.4778147399673727
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1951,NA,15377,4135,1.4327731489629316
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1952,NA,20903,4473,1.9476996175424615
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1953,NA,19527,6652,1.8194283573582795
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1954,NA,22672,8036,2.1125363452229187
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1955,NA,32204,11724,3.0006879877882513
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1956,NA,22220,5189,2.070348721590992
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1957,NA,15052,4090,1.4025112220777567
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1958,NA,14625,4143,1.3627164151790754
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1959,NA,11358,2789,1.0582976089098666
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1960,NA,20278,4359,1.8894532956378214
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1961,NA,7872,2388,0.7334756822245737
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1962,NA,36393,11756,3.3909650114845324
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1963,NA,19469,5182,1.8140288959159325
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1964,NA,18035,3472,1.6804795872733054
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1965,NA,12700,3214,1.1833708189779917
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1966,NA,14416,3979,1.3432786026332608
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1967,NA,14563,4433,1.3569397716810805
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1968,NA,25376,8162,2.364484328703435
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1969,NA,19052,4667,1.7752101489438852
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1970,NA,10451,3425,0.9737505971629439
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1971,NA,22774,5082,2.122006273397814
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1972,NA,13739,3234,1.280195219273882
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1973,NA,18774,4331,1.7492753424207272
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1974,NA,9545,2937,0.8893525754116328
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1975,NA,15105,3519,1.4074381974632597
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1976,NA,22853,7653,2.1293462661486737
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1977,NA,17832,4792,1.6615144604960466
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1978,NA,12075,3085,1.12513671537746
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1979,NA,27341,6357,2.547563824889336
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1980,NA,15879,5269,1.4795548990797067
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1981,NA,11501,2561,1.071634223795433
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1982,NA,20439,5063,1.904460430797256
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1983,NA,21164,6941,1.97195016433978
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1984,NA,11498,2965,1.071330757422459
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1985,NA,14887,5131,1.387103459168792
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1986,NA,23674,5146,2.2058723349644853
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1987,NA,23218,6467,2.163422866029087
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1988,NA,16775,4526,1.5630820801148226
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1989,NA,16603,4405,1.5470040660935591
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1990,NA,8047,3291,0.7497973945655807
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1991,NA,7467,2332,0.6957545647789385
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1992,NA,12806,4794,1.1932571729285615
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1993,NA,11833,4403,1.1025534228676257
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1994,NA,18758,6217,1.747848323982908
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1995,NA,19702,8093,1.8357604274809904
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1996,NA,23123,5562,2.1545004610204495
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1997,NA,49975,17151,4.656508843363904
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1998,NA,13527,6966,1.2604384094643892
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,1999,NA,6189,3207,0.5766939173875669
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,2000,NA,13609,5401,1.2680798144450711
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,2001,NA,15097,7238,1.406693800486472
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year,2002,NA,5809,4298,0.5412338592312388
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1942,NA,447,452,0.49135490351121913
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1944,NA,89,97,0.097482955803984
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1946,NA,546,564,0.5996211465973461
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1948,NA,737,762,0.8098608784824114
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1949,NA,2038,1964,2.239296462298587
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1951,NA,2381,2414,2.6158702101172016
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1952,NA,671,677,0.7370323552668286
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1953,NA,1272,1314,1.396884422922392
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1954,NA,206,216,0.22586808645774512
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1955,NA,310,425,0.3406671954796301
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1957,NA,1007,1183,1.1065321112821693
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1958,NA,848,835,0.9318911042314157
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1959,NA,394,411,0.4332935093270466
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1960,NA,529,517,0.580961678789863
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1961,NA,310,227,0.34108696370429376
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1962,NA,1669,1205,1.8332360644745909
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1963,NA,1868,1573,2.052557988110695
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1964,NA,466,469,0.5116304455454548
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1966,NA,1541,1493,1.6925810817880966
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1967,NA,4208,2958,4.622709398092892
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1969,NA,1914,1062,2.102799681270166
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1971,NA,5125,3353,5.629716584725745
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1972,NA,2678,1989,2.942176955734646
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1973,NA,2998,2655,3.2938404194185864
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1975,NA,195,199,0.21433925084095304
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1976,NA,2671,1855,2.9345622676987535
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1977,NA,786,786,0.8639064920328308
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1978,NA,1488,1135,1.6346556424516574
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1979,NA,2005,1543,2.2028599512707077
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1980,NA,4592,3079,5.044518761610477
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1981,NA,703,573,0.7726806609987885
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1982,NA,3233,2241,3.551662514888252
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1983,NA,4694,3126,5.156461742051182
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1984,NA,1254,1232,1.3774948170824772
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1985,NA,5161,4311,5.670301514879514
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1986,NA,1858,1611,2.040873132560517
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1987,NA,4049,3269,4.447943244113529
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1988,NA,3639,3280,3.9981893499831362
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1990,NA,1731,1706,1.9016932127816317
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1992,NA,705,714,0.77441370816017
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1993,NA,3630,2039,3.9879848555228046
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1995,NA,5729,5288,6.2932694508721125
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1996,NA,4036,2388,4.434123158040942
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1998,NA,2093,2232,2.2996322315525535
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,1999,NA,2216,2133,2.434603756182357
+State,Hawaii,15,2020-08-19,2020-08-31,tbirth_year_curfoodsuf_34,2002,NA,305,312,0.33487768099164483
+State,Hawaii,15,2020-08-19,2020-08-31,tenure,1,Owned free and clear,162252,17209,18.699896779919122
+State,Hawaii,15,2020-08-19,2020-08-31,tenure,2,Owned with a mortgage or loan (including home equity loans),373057,17838,42.99556451302263
+State,Hawaii,15,2020-08-19,2020-08-31,tenure,3,Rented,296979,18936,34.22733398446082
+State,Hawaii,15,2020-08-19,2020-08-31,tenure,4,Occupied without payment of rent,35376,9766,4.077204722597416
+State,Hawaii,15,2020-08-19,2020-08-31,tenure,NA,Did not report,205564,17833,19.153785605557303
+State,Hawaii,15,2020-08-19,2020-08-31,total,NA,Total,1073229,0,100
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree1,1,Free meals through the school or other programs aimed at children,27711,7565,24.487703736042608
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree1,NA,Did not report,1045518,7565,97.41793974645185
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree2,1,Food pantry or food bank,23180,5537,20.48314119960213
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree2,NA,Did not report,1050049,5537,97.8401933750341
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree3,1,Home-delivered meal service like Meals on Wheels,6429,2481,5.68098802933708
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree3,NA,Did not report,1066800,2481,99.40097881167013
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree4,1,"Church, synagogue, temple, mosque or other religious organization",23581,6524,20.837540166133696
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree4,NA,Did not report,1049648,6524,97.80282443692363
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree5,NA,Did not report,1073229,0,100
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree6,1,Other community program,40957,6746,36.19216222522872
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree6,NA,Did not report,1032272,6746,96.1837849485992
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree7,1,"Family, friends, or neighbors",52418,10876,46.32032575123826
+State,Hawaii,15,2020-08-19,2020-08-31,wherefree7,NA,Did not report,1020811,10876,95.11583963352035
+State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,1,Yes,559802,25437,52.26551750421496
+State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,2,No,511271,25480,47.73448249578504
+State,Hawaii,15,2020-08-19,2020-08-31,wrkloss,NA,Did not report,2156,894,0.20089500405722158
 State,Hawaii,15,2020-07-16,2020-07-21,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,560669,28684,53.03882360235713
 State,Hawaii,15,2020-07-16,2020-07-21,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",391814,26793,37.065325170790246
 State,Hawaii,15,2020-07-16,2020-07-21,curfoodsuf,3,Sometimes not enough to eat,99133,16225,9.377862599246386
@@ -227,18 +424,6 @@ State,Hawaii,15,2020-07-16,2020-07-21,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-07-16,2020-07-21,tenure,3,Rented,307252,26575,31.152458581611537
 State,Hawaii,15,2020-07-16,2020-07-21,tenure,4,Occupied without payment of rent,17368,4482,1.760991065083023
 State,Hawaii,15,2020-07-16,2020-07-21,tenure,NA,Did not report,86944,11331,8.1011941165917
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid,0,NA,681558,22397,63.5053530495767
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid,1,NA,185910,21689,17.322455707052942
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid,2,NA,118046,19479,10.99910798079019
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid,3,NA,40993,7637,3.8195852052968515
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid,4,NA,27710,9597,2.581937025648439
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid,5,NA,19013,7832,1.7715610316348693
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid_curfoodsuf_34,0,NA,55062,12449,52.636468886841456
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid_curfoodsuf_34,1,NA,16235,4281,15.519940215813573
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid_curfoodsuf_34,2,NA,2861,1851,2.7347236851622934
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid_curfoodsuf_34,3,NA,6612,3580,6.320473057012559
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid_curfoodsuf_34,4,NA,11978,6487,11.450370995855936
-State,Hawaii,15,2020-07-16,2020-07-21,thhld_numkid_curfoodsuf_34,5,NA,11861,7464,11.33802315931417
 State,Hawaii,15,2020-07-16,2020-07-21,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-07-16,2020-07-21,wherefree1,1,Free meals through the school or other programs aimed at children,41072,10102,29.063458809405617
 State,Hawaii,15,2020-07-16,2020-07-21,wherefree1,NA,Did not report,1032157,10102,96.17302056292235
@@ -257,14 +442,6 @@ State,Hawaii,15,2020-07-16,2020-07-21,wherefree7,NA,Did not report,1025471,10931
 State,Hawaii,15,2020-07-16,2020-07-21,wrkloss,1,Yes,594789,32499,55.799746520118546
 State,Hawaii,15,2020-07-16,2020-07-21,wrkloss,2,No,471146,32393,44.20025347988146
 State,Hawaii,15,2020-07-16,2020-07-21,wrkloss,NA,Did not report,7294,3157,0.6796339206606092
-State,Hawaii,15,2020-07-09,2020-07-14,childfood,1,Often true,18235,7578,8.545203133134535
-State,Hawaii,15,2020-07-09,2020-07-14,childfood,2,Sometimes true,56896,14182,26.662538959402085
-State,Hawaii,15,2020-07-09,2020-07-14,childfood,3,Never true,138261,21620,64.7922579074634
-State,Hawaii,15,2020-07-09,2020-07-14,childfood,NA,Did not report,859837,23242,80.11685294631494
-State,Hawaii,15,2020-07-09,2020-07-14,childfood_curfoodsuf_34,1,Often true,16658,7642,14.619633916963936
-State,Hawaii,15,2020-07-09,2020-07-14,childfood_curfoodsuf_34,2,Sometimes true,15131,4984,13.280126822260357
-State,Hawaii,15,2020-07-09,2020-07-14,childfood_curfoodsuf_34,3,Never true,12851,5847,11.278498926647062
-State,Hawaii,15,2020-07-09,2020-07-14,childfood_curfoodsuf_34,NA,Did not report,69301,18406,60.82174033412864
 State,Hawaii,15,2020-07-09,2020-07-14,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,553224,25332,52.44406940085132
 State,Hawaii,15,2020-07-09,2020-07-14,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",387719,26745,36.75468803495614
 State,Hawaii,15,2020-07-09,2020-07-14,curfoodsuf,3,Sometimes not enough to eat,96814,19717,9.177712801561103
@@ -455,18 +632,6 @@ State,Hawaii,15,2020-07-09,2020-07-14,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-07-09,2020-07-14,tenure,3,Rented,323196,29192,32.79395447765566
 State,Hawaii,15,2020-07-09,2020-07-14,tenure,4,Occupied without payment of rent,13327,5602,1.3522382180865271
 State,Hawaii,15,2020-07-09,2020-07-14,tenure,NA,Did not report,87693,13183,8.170964023285679
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid,0,NA,615535,32783,57.35354505848141
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid,1,NA,209840,30566,19.552232363851058
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid,2,NA,106261,17320,9.901017716123837
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid,3,NA,65535,11785,6.1063169072343255
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid,4,NA,48191,17453,4.490316287783917
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid,5,NA,27867,9943,2.5965716665254623
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid_curfoodsuf_34,0,NA,68529,18159,60.144688785831335
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid_curfoodsuf_34,1,NA,9141,4020,8.022274320611366
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid_curfoodsuf_34,2,NA,17795,7412,15.617805712846849
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid_curfoodsuf_34,3,NA,11638,6108,10.21444676699164
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid_curfoodsuf_34,4,NA,1155,943,1.014120468752914
-State,Hawaii,15,2020-07-09,2020-07-14,thhld_numkid_curfoodsuf_34,5,NA,5682,2671,4.9866639449658905
 State,Hawaii,15,2020-07-09,2020-07-14,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-07-09,2020-07-14,wherefree1,1,Free meals through the school or other programs aimed at children,33104,9063,19.706950177169723
 State,Hawaii,15,2020-07-09,2020-07-14,wherefree1,NA,Did not report,1040125,9063,96.91548649929017
@@ -485,14 +650,6 @@ State,Hawaii,15,2020-07-09,2020-07-14,wherefree7,NA,Did not report,1024942,12333
 State,Hawaii,15,2020-07-09,2020-07-14,wrkloss,1,Yes,640664,26763,59.81336895876712
 State,Hawaii,15,2020-07-09,2020-07-14,wrkloss,2,No,430441,26771,40.18663104123289
 State,Hawaii,15,2020-07-09,2020-07-14,wrkloss,NA,Did not report,2124,1124,0.1979122649991785
-State,Hawaii,15,2020-07-02,2020-07-07,childfood,1,Often true,12700,5064,5.9786730863343305
-State,Hawaii,15,2020-07-02,2020-07-07,childfood,2,Sometimes true,68253,10656,32.13171584909905
-State,Hawaii,15,2020-07-02,2020-07-07,childfood,3,Never true,131463,19677,61.889611064566566
-State,Hawaii,15,2020-07-02,2020-07-07,childfood,NA,Did not report,860813,21667,80.20780071588291
-State,Hawaii,15,2020-07-02,2020-07-07,childfood_curfoodsuf_34,1,Often true,5551,2495,5.312066321840939
-State,Hawaii,15,2020-07-02,2020-07-07,childfood_curfoodsuf_34,2,Sometimes true,44934,9724,43.001230963460195
-State,Hawaii,15,2020-07-02,2020-07-07,childfood_curfoodsuf_34,3,Never true,15711,7404,15.035673650726425
-State,Hawaii,15,2020-07-02,2020-07-07,childfood_curfoodsuf_34,NA,Did not report,38298,9757,36.65102906397244
 State,Hawaii,15,2020-07-02,2020-07-07,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,564956,29166,55.202391570187444
 State,Hawaii,15,2020-07-02,2020-07-07,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",353977,26820,34.587440889606874
 State,Hawaii,15,2020-07-02,2020-07-07,curfoodsuf,3,Sometimes not enough to eat,78654,15452,7.685334240510314
@@ -686,18 +843,6 @@ State,Hawaii,15,2020-07-02,2020-07-07,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-07-02,2020-07-07,tenure,3,Rented,382694,25704,40.503064389080784
 State,Hawaii,15,2020-07-02,2020-07-07,tenure,4,Occupied without payment of rent,24825,7486,2.6274120242003565
 State,Hawaii,15,2020-07-02,2020-07-07,tenure,NA,Did not report,128377,18965,11.961794466941624
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid,0,NA,647711,28403,60.351593197614214
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid,1,NA,174718,20042,16.279680246444364
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid,2,NA,142723,18970,13.29843437319474
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid,3,NA,71102,20898,6.625036123496666
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid,4,NA,26204,10717,2.441577787803526
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid,5,NA,10772,4298,1.0036782714464878
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid_curfoodsuf_34,0,NA,39320,9817,37.62888673559162
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid_curfoodsuf_34,1,NA,21562,9036,20.635174897902726
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid_curfoodsuf_34,2,NA,19005,6906,18.187430939921956
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid_curfoodsuf_34,3,NA,15664,6691,14.990683640213694
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid_curfoodsuf_34,4,NA,7292,5164,6.978494477941234
-State,Hawaii,15,2020-07-02,2020-07-07,thhld_numkid_curfoodsuf_34,5,NA,1650,1461,1.579329308428761
 State,Hawaii,15,2020-07-02,2020-07-07,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-07-02,2020-07-07,wherefree1,1,Free meals through the school or other programs aimed at children,30471,8650,24.16170820208411
 State,Hawaii,15,2020-07-02,2020-07-07,wherefree1,NA,Did not report,1042758,8650,97.16078660195365
@@ -716,14 +861,6 @@ State,Hawaii,15,2020-07-02,2020-07-07,wherefree7,NA,Did not report,1025371,10267
 State,Hawaii,15,2020-07-02,2020-07-07,wrkloss,1,Yes,650712,27032,61.55099066144727
 State,Hawaii,15,2020-07-02,2020-07-07,wrkloss,2,No,406479,25768,38.44900933855273
 State,Hawaii,15,2020-07-02,2020-07-07,wrkloss,NA,Did not report,16038,7512,1.494369511603173
-State,Hawaii,15,2020-06-25,2020-06-30,childfood,1,Often true,12170,4641,6.660531952622015
-State,Hawaii,15,2020-06-25,2020-06-30,childfood,2,Sometimes true,66257,14866,36.26200059547574
-State,Hawaii,15,2020-06-25,2020-06-30,childfood,3,Never true,104291,15676,57.07746745190228
-State,Hawaii,15,2020-06-25,2020-06-30,childfood,NA,Did not report,890511,24123,82.97493832931339
-State,Hawaii,15,2020-06-25,2020-06-30,childfood_curfoodsuf_34,1,Often true,3583,1745,5.876546076027551
-State,Hawaii,15,2020-06-25,2020-06-30,childfood_curfoodsuf_34,2,Sometimes true,26336,7633,43.19413879808353
-State,Hawaii,15,2020-06-25,2020-06-30,childfood_curfoodsuf_34,3,Never true,10732,3385,17.601461175016233
-State,Hawaii,15,2020-06-25,2020-06-30,childfood_curfoodsuf_34,NA,Did not report,20320,4837,33.32785395087269
 State,Hawaii,15,2020-06-25,2020-06-30,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,594310,31241,57.09741806681177
 State,Hawaii,15,2020-06-25,2020-06-30,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",385590,30668,37.0449734827858
 State,Hawaii,15,2020-06-25,2020-06-30,curfoodsuf,3,Sometimes not enough to eat,43306,7297,4.160529958613804
@@ -915,18 +1052,6 @@ State,Hawaii,15,2020-06-25,2020-06-30,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-06-25,2020-06-30,tenure,3,Rented,425447,25705,43.4405533482575
 State,Hawaii,15,2020-06-25,2020-06-30,tenure,4,Occupied without payment of rent,10600,4097,1.082359079445899
 State,Hawaii,15,2020-06-25,2020-06-30,tenure,NA,Did not report,93852,11956,8.744796752922518
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid,0,NA,686870,27667,64.00031965247068
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid,1,NA,150187,18581,13.993983502389192
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid,2,NA,121002,15500,11.274554130289888
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid,3,NA,72438,15568,6.749555194882216
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid,4,NA,25610,8635,2.3862168496833003
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid,5,NA,17122,6006,1.5953706702847272
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid_curfoodsuf_34,0,NA,19230,4849,31.539545855058115
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid_curfoodsuf_34,1,NA,19636,7151,32.206752363323844
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid_curfoodsuf_34,2,NA,5572,1899,9.138677994899089
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid_curfoodsuf_34,3,NA,8617,3634,14.133118367480161
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid_curfoodsuf_34,4,NA,4155,3260,6.8144041572892595
-State,Hawaii,15,2020-06-25,2020-06-30,thhld_numkid_curfoodsuf_34,5,NA,3760,2199,6.167501261949527
 State,Hawaii,15,2020-06-25,2020-06-30,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-06-25,2020-06-30,wherefree1,1,Free meals through the school or other programs aimed at children,34629,8343,19.033804224284445
 State,Hawaii,15,2020-06-25,2020-06-30,wherefree1,NA,Did not report,1038600,8343,96.7733561908161
@@ -945,14 +1070,6 @@ State,Hawaii,15,2020-06-25,2020-06-30,wherefree7,NA,Did not report,985762,25865,
 State,Hawaii,15,2020-06-25,2020-06-30,wrkloss,1,Yes,560701,31999,52.54929527736926
 State,Hawaii,15,2020-06-25,2020-06-30,wrkloss,2,No,506299,31772,47.45070472263074
 State,Hawaii,15,2020-06-25,2020-06-30,wrkloss,NA,Did not report,6228,2906,0.5803072920715752
-State,Hawaii,15,2020-06-18,2020-06-23,childfood,1,Often true,20664,7560,11.83185343868784
-State,Hawaii,15,2020-06-18,2020-06-23,childfood,2,Sometimes true,53936,13280,30.882727539289057
-State,Hawaii,15,2020-06-18,2020-06-23,childfood,3,Never true,100048,15488,57.28541902202303
-State,Hawaii,15,2020-06-18,2020-06-23,childfood,NA,Did not report,898580,20834,83.72676394318077
-State,Hawaii,15,2020-06-18,2020-06-23,childfood_curfoodsuf_34,1,Often true,16494,7397,19.035049320963267
-State,Hawaii,15,2020-06-18,2020-06-23,childfood_curfoodsuf_34,2,Sometimes true,30291,13054,34.95676994201459
-State,Hawaii,15,2020-06-18,2020-06-23,childfood_curfoodsuf_34,3,Never true,18584,9004,21.44687032877737
-State,Hawaii,15,2020-06-18,2020-06-23,childfood_curfoodsuf_34,NA,Did not report,21283,5104,24.56131040824479
 State,Hawaii,15,2020-06-18,2020-06-23,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,679835,25613,64.6503175298659
 State,Hawaii,15,2020-06-18,2020-06-23,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",285070,27366,27.10931266422754
 State,Hawaii,15,2020-06-18,2020-06-23,curfoodsuf,3,Sometimes not enough to eat,63708,14445,6.058475777719478
@@ -1143,18 +1260,6 @@ State,Hawaii,15,2020-06-18,2020-06-23,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-06-18,2020-06-23,tenure,3,Rented,413334,27585,41.79125563304464
 State,Hawaii,15,2020-06-18,2020-06-23,tenure,4,Occupied without payment of rent,17035,5457,1.7223586004292113
 State,Hawaii,15,2020-06-18,2020-06-23,tenure,NA,Did not report,84184,16536,7.844016981165853
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid,0,NA,659132,18866,61.41574851318795
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid,1,NA,133053,17743,12.397402775714067
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid,2,NA,145284,18352,13.537059260385147
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid,3,NA,71705,16173,6.681265373110933
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid,4,NA,23386,9065,2.178985838643676
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid,5,NA,40670,16205,3.789538238958221
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid_curfoodsuf_34,0,NA,20999,5096,24.233555629372574
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid_curfoodsuf_34,1,NA,16963,7078,19.575898131489545
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid_curfoodsuf_34,2,NA,24833,9478,28.657814032119923
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid_curfoodsuf_34,3,NA,308,400,0.3554630698488896
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid_curfoodsuf_34,4,NA,2101,1460,2.424610660921704
-State,Hawaii,15,2020-06-18,2020-06-23,thhld_numkid_curfoodsuf_34,5,NA,21449,13386,24.752658476247372
 State,Hawaii,15,2020-06-18,2020-06-23,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-06-18,2020-06-23,wherefree1,1,Free meals through the school or other programs aimed at children,38917,12924,24.172670526313272
 State,Hawaii,15,2020-06-18,2020-06-23,wherefree1,NA,Did not report,1034312,12924,96.37386684064653
@@ -1173,14 +1278,6 @@ State,Hawaii,15,2020-06-18,2020-06-23,wherefree7,NA,Did not report,1051527,4996,
 State,Hawaii,15,2020-06-18,2020-06-23,wrkloss,1,Yes,489326,24308,46.32488499281274
 State,Hawaii,15,2020-06-18,2020-06-23,wrkloss,2,No,566966,23736,53.675115007187244
 State,Hawaii,15,2020-06-18,2020-06-23,wrkloss,NA,Did not report,16937,8500,1.5780886872051274
-State,Hawaii,15,2020-06-11,2020-06-16,childfood,1,Often true,17489,6465,9.836932558717223
-State,Hawaii,15,2020-06-11,2020-06-16,childfood,2,Sometimes true,60983,17826,34.30131937590035
-State,Hawaii,15,2020-06-11,2020-06-16,childfood,3,Never true,99315,16605,55.861748065382464
-State,Hawaii,15,2020-06-11,2020-06-16,childfood,NA,Did not report,895441,22067,83.43433593274116
-State,Hawaii,15,2020-06-11,2020-06-16,childfood_curfoodsuf_34,1,Often true,13920,6350,20.55325409152453
-State,Hawaii,15,2020-06-11,2020-06-16,childfood_curfoodsuf_34,2,Sometimes true,17148,8066,25.319209622207268
-State,Hawaii,15,2020-06-11,2020-06-16,childfood_curfoodsuf_34,3,Never true,10191,6427,15.046848154319992
-State,Hawaii,15,2020-06-11,2020-06-16,childfood_curfoodsuf_34,NA,Did not report,26469,7642,39.08068813194821
 State,Hawaii,15,2020-06-11,2020-06-16,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,605623,30958,58.166770830142745
 State,Hawaii,15,2020-06-11,2020-06-16,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",367833,32688,35.328336457481235
 State,Hawaii,15,2020-06-11,2020-06-16,curfoodsuf,3,Sometimes not enough to eat,53924,12038,5.179134864767375
@@ -1362,18 +1459,6 @@ State,Hawaii,15,2020-06-11,2020-06-16,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-06-11,2020-06-16,tenure,3,Rented,376463,29168,38.04899026712827
 State,Hawaii,15,2020-06-11,2020-06-16,tenure,4,Occupied without payment of rent,7736,3214,0.7818582953590695
 State,Hawaii,15,2020-06-11,2020-06-16,tenure,NA,Did not report,83813,14998,7.80944842810696
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid,0,NA,619862,30356,57.75677068529282
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid,1,NA,134732,17051,12.553886022688628
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid,2,NA,191414,22688,17.83537865909536
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid,3,NA,52767,12497,4.916642011826909
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid,4,NA,50416,16842,4.697632266336557
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid,5,NA,24037,9265,2.2396903547597247
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid_curfoodsuf_34,0,NA,18787,4838,27.738648362150126
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid_curfoodsuf_34,1,NA,16542,6621,24.424368578189522
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid_curfoodsuf_34,2,NA,10118,4648,14.939446000304885
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid_curfoodsuf_34,3,NA,4505,4617,6.651797040740364
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid_curfoodsuf_34,4,NA,10294,7026,15.199443997870702
-State,Hawaii,15,2020-06-11,2020-06-16,thhld_numkid_curfoodsuf_34,5,NA,7481,5382,11.046296020744402
 State,Hawaii,15,2020-06-11,2020-06-16,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-06-11,2020-06-16,wherefree1,1,Free meals through the school or other programs aimed at children,50954,16456,32.19364817840451
 State,Hawaii,15,2020-06-11,2020-06-16,wherefree1,NA,Did not report,1022275,16456,95.25224590051324
@@ -1392,14 +1477,6 @@ State,Hawaii,15,2020-06-11,2020-06-16,wherefree7,NA,Did not report,994842,20117,
 State,Hawaii,15,2020-06-11,2020-06-16,wrkloss,1,Yes,526430,35160,49.41851970383421
 State,Hawaii,15,2020-06-11,2020-06-16,wrkloss,2,No,538818,37289,50.5814802961658
 State,Hawaii,15,2020-06-11,2020-06-16,wrkloss,NA,Did not report,7981,6449,0.743661628001986
-State,Hawaii,15,2020-06-04,2020-06-09,childfood,1,Often true,5542,2812,3.2963100397712877
-State,Hawaii,15,2020-06-04,2020-06-09,childfood,2,Sometimes true,54840,11477,32.615659732511865
-State,Hawaii,15,2020-06-04,2020-06-09,childfood,3,Never true,107757,14847,64.08803022771691
-State,Hawaii,15,2020-06-04,2020-06-09,childfood,NA,Did not report,905089,17439,84.33329889939603
-State,Hawaii,15,2020-06-04,2020-06-09,childfood_curfoodsuf_34,1,Often true,3879,2235,5.23769243529727
-State,Hawaii,15,2020-06-04,2020-06-09,childfood_curfoodsuf_34,2,Sometimes true,13256,3733,17.8964289675243
-State,Hawaii,15,2020-06-04,2020-06-09,childfood_curfoodsuf_34,3,Never true,8338,3722,11.256897386184928
-State,Hawaii,15,2020-06-04,2020-06-09,childfood_curfoodsuf_34,NA,Did not report,48596,14564,65.6089812109935
 State,Hawaii,15,2020-06-04,2020-06-09,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,655056,25013,64.26872548653556
 State,Hawaii,15,2020-06-04,2020-06-09,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",290121,22396,28.46427225101872
 State,Hawaii,15,2020-06-04,2020-06-09,curfoodsuf,3,Sometimes not enough to eat,61587,12734,6.042392352174278
@@ -1584,18 +1661,6 @@ State,Hawaii,15,2020-06-04,2020-06-09,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-06-04,2020-06-09,tenure,3,Rented,354227,30379,38.63820995338644
 State,Hawaii,15,2020-06-04,2020-06-09,tenure,4,Occupied without payment of rent,22558,6821,2.460593088250574
 State,Hawaii,15,2020-06-04,2020-06-09,tenure,NA,Did not report,156449,22994,14.577397204854377
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid,0,NA,615048,22050,57.30818500964951
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid,1,NA,180913,18740,16.856865071421645
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid,2,NA,185248,19774,17.260811405567672
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid,3,NA,40127,6531,3.7388592020338876
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid,4,NA,23353,8006,2.1759807966595264
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid,5,NA,28540,9995,2.6592985146677686
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid_curfoodsuf_34,0,NA,46116,14257,62.261096242279805
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid_curfoodsuf_34,1,NA,9307,3980,12.5657075434214
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid_curfoodsuf_34,2,NA,12156,3748,16.4118773406771
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid_curfoodsuf_34,3,NA,3640,1683,4.913767995375746
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid_curfoodsuf_34,4,NA,1833,1330,2.474867130530127
-State,Hawaii,15,2020-06-04,2020-06-09,thhld_numkid_curfoodsuf_34,5,NA,1017,695,1.3726837477158276
 State,Hawaii,15,2020-06-04,2020-06-09,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-06-04,2020-06-09,wherefree1,1,Free meals through the school or other programs aimed at children,40081,10981,32.46589441711527
 State,Hawaii,15,2020-06-04,2020-06-09,wherefree1,NA,Did not report,1033148,10981,96.2654179529189
@@ -1803,18 +1868,6 @@ State,Hawaii,15,2020-05-28,2020-06-02,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-05-28,2020-06-02,tenure,3,Rented,338988,22046,36.567941772793404
 State,Hawaii,15,2020-05-28,2020-06-02,tenure,4,Occupied without payment of rent,23417,6649,2.5260513293990643
 State,Hawaii,15,2020-05-28,2020-06-02,tenure,NA,Did not report,146220,17562,13.624321391884123
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid,0,NA,643435,22254,59.9531949669095
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid,1,NA,178364,20078,16.619379606965857
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid,2,NA,133515,17707,12.44047541747458
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid,3,NA,74338,15648,6.926529337561514
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid,4,NA,14738,4510,1.3732112076091278
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid,5,NA,28840,9118,2.687209463479415
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid_curfoodsuf_34,0,NA,42805,12523,52.37198977635264
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid_curfoodsuf_34,1,NA,17557,7019,21.48118398252462
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid_curfoodsuf_34,2,NA,7705,4251,9.426419071713859
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid_curfoodsuf_34,3,NA,3800,2061,4.6491813142472775
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid_curfoodsuf_34,4,NA,2748,2124,3.3626929785605086
-State,Hawaii,15,2020-05-28,2020-06-02,thhld_numkid_curfoodsuf_34,5,NA,7118,5453,8.708532876601105
 State,Hawaii,15,2020-05-28,2020-06-02,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-05-28,2020-06-02,wherefree1,1,Free meals through the school or other programs aimed at children,22302,4790,16.79315683030552
 State,Hawaii,15,2020-05-28,2020-06-02,wherefree1,NA,Did not report,1050927,4790,97.9219479399192
@@ -2021,18 +2074,6 @@ State,Hawaii,15,2020-05-21,2020-05-26,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-05-21,2020-05-26,tenure,3,Rented,357194,19653,38.77868076023492
 State,Hawaii,15,2020-05-21,2020-05-26,tenure,4,Occupied without payment of rent,10579,4825,1.1485139613334157
 State,Hawaii,15,2020-05-21,2020-05-26,tenure,NA,Did not report,152121,16398,14.174111013605877
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid,0,NA,635929,21287,59.25378605798284
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid,1,NA,154315,17738,14.378608785546309
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid,2,NA,146971,19246,13.694292607472981
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid,3,NA,81283,14026,7.573676296165835
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid,4,NA,34120,12647,3.1791992068505923
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid,5,NA,20611,7564,1.9204370459814355
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid_curfoodsuf_34,0,NA,42897,10318,46.20629836140302
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid_curfoodsuf_34,1,NA,25959,9863,27.96141993538532
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid_curfoodsuf_34,2,NA,14605,6498,15.731831297175424
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid_curfoodsuf_34,3,NA,3503,2290,3.7735113539657164
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid_curfoodsuf_34,4,NA,614,575,0.6618511485399097
-State,Hawaii,15,2020-05-21,2020-05-26,thhld_numkid_curfoodsuf_34,5,NA,5259,3298,5.665087903530618
 State,Hawaii,15,2020-05-21,2020-05-26,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-05-21,2020-05-26,wherefree1,1,Free meals through the school or other programs aimed at children,75503,15341,49.31250649490536
 State,Hawaii,15,2020-05-21,2020-05-26,wherefree1,NA,Did not report,997726,15341,92.96488751909185
@@ -2247,18 +2288,6 @@ State,Hawaii,15,2020-05-14,2020-05-19,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-05-14,2020-05-19,tenure,3,Rented,355686,24298,36.0061082803081
 State,Hawaii,15,2020-05-14,2020-05-19,tenure,4,Occupied without payment of rent,10335,3857,1.046209639229862
 State,Hawaii,15,2020-05-14,2020-05-19,tenure,NA,Did not report,85379,15182,7.955313627479935
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid,0,NA,595226,31150,55.4612289845009
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid,1,NA,163213,23043,15.207635502909906
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid,2,NA,169619,17563,15.804553439467345
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid,3,NA,116521,20635,10.857006263581384
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid,4,NA,20835,7095,1.9413360656324141
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid,5,NA,7816,2860,0.7282397439080719
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid_curfoodsuf_34,0,NA,26087,6721,35.86877121260793
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid_curfoodsuf_34,1,NA,12297,7303,16.90809964908534
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid_curfoodsuf_34,2,NA,23269,8657,31.993550966191464
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid_curfoodsuf_34,3,NA,655,589,0.9010844329779726
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid_curfoodsuf_34,4,NA,8393,5204,11.539478673014685
-State,Hawaii,15,2020-05-14,2020-05-19,thhld_numkid_curfoodsuf_34,5,NA,2028,1105,2.7890150661226043
 State,Hawaii,15,2020-05-14,2020-05-19,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-05-14,2020-05-19,wherefree1,1,Free meals through the school or other programs aimed at children,48037,11494,29.645104054372236
 State,Hawaii,15,2020-05-14,2020-05-19,wherefree1,NA,Did not report,1025192,11494,95.52408590038648
@@ -2449,17 +2478,6 @@ State,Hawaii,15,2020-05-07,2020-05-12,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-05-07,2020-05-12,tenure,3,Rented,417020,35482,41.49817038541965
 State,Hawaii,15,2020-05-07,2020-05-12,tenure,4,Occupied without payment of rent,4217,2187,0.41967042508346264
 State,Hawaii,15,2020-05-07,2020-05-12,tenure,NA,Did not report,68316,16750,6.3655050010190815
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid,0,NA,658387,37782,61.34633273479116
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid,1,NA,150733,21181,14.04481912157611
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid,2,NA,174526,32425,16.261755079111442
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid,3,NA,59623,20865,5.5554577345223874
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid,4,NA,22016,8082,2.0513804608722688
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid,5,NA,7945,5201,0.740254869126623
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid_curfoodsuf_34,0,NA,41206,11856,49.97985392969929
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid_curfoodsuf_34,1,NA,7636,4566,9.261768278908633
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid_curfoodsuf_34,2,NA,21807,11715,26.449630082943106
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid_curfoodsuf_34,3,NA,7562,6985,9.171990035815622
-State,Hawaii,15,2020-05-07,2020-05-12,thhld_numkid_curfoodsuf_34,4,NA,4235,4268,5.136757672633356
 State,Hawaii,15,2020-05-07,2020-05-12,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-05-07,2020-05-12,wherefree1,1,Free meals through the school or other programs aimed at children,29774,11425,25.28925098283009
 State,Hawaii,15,2020-05-07,2020-05-12,wherefree1,NA,Did not report,1043455,11425,97.22572234135271
@@ -2652,17 +2670,6 @@ State,Hawaii,15,2020-04-23,2020-05-05,tenure,2,Owned with a mortgage or loan (in
 State,Hawaii,15,2020-04-23,2020-05-05,tenure,3,Rented,383661,29855,39.07887796798109
 State,Hawaii,15,2020-04-23,2020-05-05,tenure,4,Occupied without payment of rent,21601,6358,2.2002053438201985
 State,Hawaii,15,2020-04-23,2020-05-05,tenure,NA,Did not report,91468,12685,8.522649007924413
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid,0,NA,597255,28315,55.650313096814685
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid,1,NA,184124,21186,17.15608579700725
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid,2,NA,213577,26128,19.90045012817703
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid,3,NA,43439,10837,4.047515992354462
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid,4,NA,29431,10606,2.7422401474103015
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid,5,NA,5403,3731,0.503394838236249
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid_curfoodsuf_34,0,NA,60968,16644,57.54357531024058
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid_curfoodsuf_34,1,NA,17131,6926,16.168826414694145
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid_curfoodsuf_34,2,NA,16330,9635,15.413067661068794
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid_curfoodsuf_34,3,NA,9656,8295,9.113261197865992
-State,Hawaii,15,2020-04-23,2020-05-05,thhld_numkid_curfoodsuf_34,5,NA,1866,1799,1.7612694161304951
 State,Hawaii,15,2020-04-23,2020-05-05,total,NA,Total,1073229,0,100
 State,Hawaii,15,2020-04-23,2020-05-05,wherefree1,1,Free meals through the school or other programs aimed at children,43177,13958,33.849424716413104
 State,Hawaii,15,2020-04-23,2020-05-05,wherefree1,NA,Did not report,1030052,13958,95.9768611303593

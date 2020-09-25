@@ -2,6 +2,7 @@ scram
 week
 est_st
 est_msa
+hweight
 pweight
 tbirth_year
 abirth_year
