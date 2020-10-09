@@ -1,11 +1,16 @@
 area_type,area,fips,date,status,labor_force,employment,unemployment,unemployment_rate
 State,Hawaii,15,2020-08-01,Preliminary,636633,557333,79300,12.5
+Region,Balance,NA,2020-08-01,Preliminary,636632,557332,79300,12.5
+County,Hawaii County,15001,2020-08-01,Preliminary,88559,78084,10475,11.8
+County,Honolulu County,15003,2020-08-01,Preliminary,431316,385682,45634,10.6
+County,Kauai County,15007,2020-08-01,Preliminary,34947,28712,6235,17.8
+County,Maui County,15009,2020-08-01,Preliminary,81810,64854,16956,20.7
 State,Hawaii,15,2020-07-01,Final,641266,555007,86259,13.5
-Region,Balance,NA,2020-07-01,Preliminary,638062,554769,83293,13.1
-County,Hawaii County,15001,2020-07-01,Preliminary,87739,76465,11274,12.8
-County,Honolulu County,15003,2020-07-01,Preliminary,432741,384889,47852,11.1
-County,Kauai County,15007,2020-07-01,Preliminary,35096,28518,6578,18.7
-County,Maui County,15009,2020-07-01,Preliminary,82486,64897,17589,21.3
+Region,Balance,NA,2020-07-01,Final,641266,555007,86259,13.5
+County,Hawaii County,15001,2020-07-01,Final,89038,77384,11654,13.1
+County,Honolulu County,15003,2020-07-01,Final,434103,384325,49778,11.5
+County,Kauai County,15007,2020-07-01,Final,35428,28654,6774,19.1
+County,Maui County,15009,2020-07-01,Final,82697,64644,18053,21.8
 State,Hawaii,15,2020-06-01,Final,633171,544970,88201,13.9
 Region,Balance,NA,2020-06-01,Final,633172,544970,88202,13.9
 County,Hawaii County,15001,2020-06-01,Final,88565,76886,11679,13.2
