@@ -288,6 +288,7 @@ choropleth <- function(data, var, population, tooltip, legend_title) {
   #   )
   bins <-
     values[!is.na(values)] %>% 
+    unique() %>%
     sort() %>% 
     c(0, .)
   
