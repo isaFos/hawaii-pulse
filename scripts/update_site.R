@@ -27,3 +27,4 @@ cli::cat_line(cli::rule("    Pushing"))
 system("git push")
 
 Sys.time()
+

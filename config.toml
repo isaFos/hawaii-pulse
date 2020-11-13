@@ -6,7 +6,7 @@ baseURL = "https://isaFos.github.io/hawaii-pulse"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 languageCode = "en-us"
-title = "Hawaii Weekly Pulse"
+title = "Hawaii Pulse"
 toc = false
 
 [permalinks]
