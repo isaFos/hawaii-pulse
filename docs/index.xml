@@ -13,7 +13,7 @@
     <item>
       <title>About</title>
       <link>/about/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
       <description>This site was made using the code template created by the Stanford Data Challenge Lab team and is based off of their initial analysis for the state of California.
@@ -23,7 +23,7 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Hawaii</title>
       <link>/state/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/state/</guid>
       <description>Overview Food insufficiency  Rate over time Geography Demographics Reasons Severity Free groceries or meals  Unemployment  Rate over time Geography  Unemployment and food insufficiency   Overview The data on this site is derived from the U.S. Census Bureau Household Pulse Survey (HPS) and the U.S. Bureau of Labor Statistics Local Area Unemployment Statistics (LAUS).</description>
@@ -32,41 +32,41 @@ The Hawaii site is maintained by the unBox team. If you have any feedback, comme
     <item>
       <title>Hawaii County</title>
       <link>/hawaii/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/hawaii/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34;7.5&#34;,&#34;7.3&#34;,&#34;7.6&#34;,&#34;5.5&#34;,&#34;8.4&#34;,&#34;9.1&#34;,&#34;9.9&#34;,&#34;9.4&#34;,&#34;5.3&#34;,&#34;7.4&#34;,&#34;5.9&#34;,&#34;6.5&#34;,&#34;7.0&#34;,&#34;8.0&#34;,&#34;6.2&#34;,&#34;7.0&#34;,&#34;9.0&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;:[10700,10400,11000,7910,12000,14100,15400,14100,8070,11500,8970,9810,10800,12300,9620,10900,14000],&#34;Estimated percentage of children experiencing food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Nov 9&#34;,&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34;5.7&#34;,&#34;7.5&#34;,&#34;7.3&#34;,&#34;7.6&#34;,&#34;5.5&#34;,&#34;8.4&#34;,&#34;9.1&#34;,&#34;9.9&#34;,&#34;9.4&#34;,&#34;5.3&#34;,&#34;7.4&#34;,&#34;5.9&#34;,&#34;6.5&#34;,&#34;7.0&#34;,&#34;8.0&#34;,&#34;6.2&#34;,&#34;7.0&#34;,&#34;9.0&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;:[8070,10700,10400,11000,7910,12000,14100,15400,14100,8070,11500,8970,9810,10800,12300,9620,10900,14000],&#34;Estimated percentage of children experiencing food insufficiency&#34;</description>
     </item>
     
     <item>
       <title>Honolulu County</title>
       <link>/honolulu/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/honolulu/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34;7.6&#34;,&#34;7.5&#34;,&#34;7.7&#34;,&#34;5.6&#34;,&#34;7.6&#34;,&#34;8.0&#34;,&#34;8.7&#34;,&#34;8.2&#34;,&#34;4.8&#34;,&#34;6.8&#34;,&#34;5.4&#34;,&#34;6.0&#34;,&#34;6.4&#34;,&#34;7.3&#34;,&#34;5.7&#34;,&#34;6.5&#34;,&#34;8.3&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;:[53000,51500,54600,39100,52700,60400,65800,60300,35900,51000,39800,43600,48100,55100,43100,48900,62800],&#34;Estimated percentage of children experiencing food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Nov 9&#34;,&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34;5.8&#34;,&#34;7.6&#34;,&#34;7.5&#34;,&#34;7.7&#34;,&#34;5.6&#34;,&#34;7.6&#34;,&#34;8.0&#34;,&#34;8.7&#34;,&#34;8.2&#34;,&#34;4.8&#34;,&#34;6.8&#34;,&#34;5.4&#34;,&#34;6.0&#34;,&#34;6.4&#34;,&#34;7.3&#34;,&#34;5.7&#34;,&#34;6.5&#34;,&#34;8.3&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;:[39900,53000,51500,54600,39100,52700,60400,65800,60300,35900,51000,39800,43600,48100,55100,43100,48900,62800],&#34;Estimated percentage of children experiencing food insufficiency&#34;</description>
     </item>
     
     <item>
       <title>Kauai County</title>
       <link>/kauai/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/kauai/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34;12.4&#34;,&#34;12.2&#34;,&#34;12.6&#34;,&#34; 9.2&#34;,&#34;14.0&#34;,&#34;14.8&#34;,&#34;16.1&#34;,&#34;15.2&#34;,&#34; 8.7&#34;,&#34;12.3&#34;,&#34; 9.7&#34;,&#34;10.8&#34;,&#34;11.6&#34;,&#34;13.0&#34;,&#34;10.2&#34;,&#34;11.5&#34;,&#34;14.7&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Nov 9&#34;,&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34; 9.5&#34;,&#34;12.4&#34;,&#34;12.2&#34;,&#34;12.6&#34;,&#34; 9.2&#34;,&#34;14.0&#34;,&#34;14.8&#34;,&#34;16.1&#34;,&#34;15.2&#34;,&#34; 8.7&#34;,&#34;12.3&#34;,&#34; 9.7&#34;,&#34;10.8&#34;,&#34;11.6&#34;,&#34;13.0&#34;,&#34;10.2&#34;,&#34;11.5&#34;,&#34;14.7&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;</description>
     </item>
     
     <item>
       <title>Maui County</title>
       <link>/maui/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/maui/</guid>
       <description>Food insufficiency Unemployment   Food insufficiency 
- {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34;14.7&#34;,&#34;14.4&#34;,&#34;14.9&#34;,&#34;10.9&#34;,&#34;16.3&#34;,&#34;17.0&#34;,&#34;18.6&#34;,&#34;17.6&#34;,&#34; 9.7&#34;,&#34;13.6&#34;,&#34;10.8&#34;,&#34;12.0&#34;,&#34;12.8&#34;,&#34;14.3&#34;,&#34;11.2&#34;,&#34;12.7&#34;,&#34;16.3&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;:[17400,16900,17900,12800,19200,21900,23800,21900,12300,17400,13600,14900,16400,18300,14400,16300,20900],&#34;Estimated percentage of children experiencing food insufficiency&#34;</description>
+ {&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Survey end date&#34;:[&#34;2020 Nov 9&#34;,&#34;2020 Oct 26&#34;,&#34;2020 Oct 12&#34;,&#34;2020 Sep 28&#34;,&#34;2020 Sep 14&#34;,&#34;2020 Aug 31&#34;,&#34;2020 Jul 21&#34;,&#34;2020 Jul 14&#34;,&#34;2020 Jul 7&#34;,&#34;2020 Jun 30&#34;,&#34;2020 Jun 23&#34;,&#34;2020 Jun 16&#34;,&#34;2020 Jun 9&#34;,&#34;2020 Jun 2&#34;,&#34;2020 May 26&#34;,&#34;2020 May 19&#34;,&#34;2020 May 12&#34;,&#34;2020 May 5&#34;],&#34;Estimated percentage of adults experiencing food insufficiency&#34;:[&#34;11.2&#34;,&#34;14.7&#34;,&#34;14.4&#34;,&#34;14.9&#34;,&#34;10.9&#34;,&#34;16.3&#34;,&#34;17.0&#34;,&#34;18.6&#34;,&#34;17.6&#34;,&#34; 9.7&#34;,&#34;13.6&#34;,&#34;10.8&#34;,&#34;12.0&#34;,&#34;12.8&#34;,&#34;14.3&#34;,&#34;11.2&#34;,&#34;12.7&#34;,&#34;16.3&#34;],&#34;Estimated number of adults experiencing food insufficiency&#34;</description>
     </item>
     
   </channel>
