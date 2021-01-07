@@ -279,7 +279,7 @@ choropleth <- function(data, var, population, tooltip, legend_title) {
   values <- 
     data %>% 
     pull({{var}})
-    
+  
   # bins <-
   #   Hmisc::wtd.quantile(
   #     values,
@@ -294,7 +294,6 @@ choropleth <- function(data, var, population, tooltip, legend_title) {
   
   values[near(values, min(bins))] <- min(bins)
   values[near(values, max(bins))] <- max(bins)
-
   fill_color <- 
     colorBin(
       palette = MAP_COLOR_PALETTE,
@@ -627,7 +626,7 @@ v <-
   filter(
     date_end == hps_puf_date_end,
     str_detect(variable, "^egender")
-  ) 
+  )
 
 overall_rate <- 
   v %>% 
@@ -989,7 +988,6 @@ v %>%
   )
 ```
 
-
 Source: Bureau of Labor Statistics, Local Area Unemployment Statistics.
 
 ## Unemployment and food insufficiency
@@ -1021,7 +1019,11 @@ labels_fss <-
 labels_hps <- 
   unemployment_fi_hps %>% 
   filter(date == min(date) | date == max(date)) %>% 
-  mutate(label = format(date, "%Y %b"))
+  mutate(
+    label = format(date, "%Y %b"),
+    hjust = c(1.1, 1.1),
+    vjust = c(0.5, 0.5)
+  )
 
 ggplot(mapping = aes(unemployment_rate, food_insufficiency_pct)) +
   geom_path(aes(alpha = date), data = unemployment_fi_fss) +
@@ -1032,8 +1034,8 @@ ggplot(mapping = aes(unemployment_rate, food_insufficiency_pct)) +
   ) +
   geom_path(data = unemployment_fi_hps) +
   geom_point(data = unemployment_fi_hps) +
-  ggrepel::geom_text_repel(
-    aes(label = label),
+  geom_text(
+    aes(label = label, hjust = hjust, vjust = vjust),
     data = labels_hps
   ) +
   geom_abline(
@@ -1069,5 +1071,4 @@ ggplot(mapping = aes(unemployment_rate, food_insufficiency_pct)) +
 We modeled food insufficiency on the state unemployment rate to understand how the current situation relates to the past. The blue line shows our model. 
 
 The relationship between food insufficiency and unemployment that held between 2001 and 2018 appears to have changed during the pandemic. May 2020 experienced both high unemployment and high food insufficiency, but food insufficiency is much higher than past years would predict. 
-
-Food insufficiency data for December 2019 is not yet available, so the plot does not show 2019. 
+ 
