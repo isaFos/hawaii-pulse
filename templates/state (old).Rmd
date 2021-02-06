@@ -582,7 +582,7 @@ overall_rate <-
   summarize(
     pct = 
       100 * sum(n[variable == "tbirth_year_curfoodsuf_34"]) / 
-      sum(n[variable == "tbirth_year_curfoodsuf_1234"]),
+      sum(n[variable == "tbirth_year"]),
     label = "Overall food insufficiency rate"
   )
 
@@ -592,7 +592,7 @@ v <-
   summarize(
     pct =
       100 * n[variable == "tbirth_year_curfoodsuf_34"] / 
-      n[variable == "tbirth_year_curfoodsuf_1234"]
+      n[variable == "tbirth_year"]
   )
 
 v %>% 
@@ -633,7 +633,7 @@ overall_rate <-
   summarize(
     pct = 
       100 * sum(n[variable == "egender_curfoodsuf_34"]) / 
-      sum(n[variable == "egender_curfoodsuf_1234"]),
+      sum(n[variable == "egender"]),
     label = "Overall food insufficiency rate"
   )
 
@@ -643,7 +643,7 @@ v <-
   summarize(
     pct =
       100 * n[variable == "egender_curfoodsuf_34"] / 
-      n[variable == "egender_curfoodsuf_1234"]
+      n[variable == "egender"]
   )
 
 v %>% 
@@ -694,7 +694,7 @@ overall_rate <-
   summarize(
     pct = 
       100 * sum(n[variable == "rhispanic_rrace_curfoodsuf_34"]) / 
-      sum(n[variable == "rhispanic_rrace_curfoodsuf_1234"]),
+      sum(n[variable == "rhispanic_rrace"]),
     label = "Overall food insufficiency rate"
   )
 
@@ -704,7 +704,7 @@ v <-
   summarize(
     pct =
       100 * n[variable == "rhispanic_rrace_curfoodsuf_34"] / 
-      n[variable == "rhispanic_rrace_curfoodsuf_1234"]
+      n[variable == "rhispanic_rrace"]
   )
 
 v %>% 
@@ -1070,5 +1070,5 @@ ggplot(mapping = aes(unemployment_rate, food_insufficiency_pct)) +
 
 We modeled food insufficiency on the state unemployment rate to understand how the current situation relates to the past. The blue line shows our model. 
 
-The relationship between food insufficiency and unemployment that held between 2001 and 2019 appears to have changed during the pandemic. Since the outbreak of the pandemic, food insufficiency is much higher than it was in the past for the same levels of unemployment.
-
+The relationship between food insufficiency and unemployment that held between 2001 and 2018 appears to have changed during the pandemic. May 2020 experienced both high unemployment and high food insufficiency, but food insufficiency is much higher than past years would predict. 
+ 
