@@ -1,4 +1,20 @@
 area,fips,date_start,date_end,variable,code,response,n,pct
+Hawaii County,15001,2021-01-20,2021-02-01,curfoodsuf,3,Sometimes not enough to eat,10169,7.020656706525641
+Hawaii County,15001,2021-01-20,2021-02-01,curfoodsuf,4,Often not enough to eat,2485,1.7156388942586507
+Honolulu County,15003,2021-01-20,2021-02-01,curfoodsuf,3,Sometimes not enough to eat,46422,6.584914358665201
+Honolulu County,15003,2021-01-20,2021-02-01,curfoodsuf,4,Often not enough to eat,11346,1.60941877371538
+Kauai County,15007,2021-01-20,2021-02-01,curfoodsuf,3,Sometimes not enough to eat,5443,10.497994136707298
+Kauai County,15007,2021-01-20,2021-02-01,curfoodsuf,4,Often not enough to eat,1330,2.565190557012807
+Maui County,15009,2021-01-20,2021-02-01,curfoodsuf,3,Sometimes not enough to eat,13531,11.27714900071675
+Maui County,15009,2021-01-20,2021-02-01,curfoodsuf,4,Often not enough to eat,3307,2.7561548847365525
+Hawaii County,15001,2021-01-06,2021-01-18,curfoodsuf,3,Sometimes not enough to eat,7322,5.195265936311517
+Hawaii County,15001,2021-01-06,2021-01-18,curfoodsuf,4,Often not enough to eat,5815,4.125986263268434
+Honolulu County,15003,2021-01-06,2021-01-18,curfoodsuf,3,Sometimes not enough to eat,33429,4.8733659594753576
+Honolulu County,15003,2021-01-06,2021-01-18,curfoodsuf,4,Often not enough to eat,26547,3.8700902248404776
+Kauai County,15007,2021-01-06,2021-01-18,curfoodsuf,3,Sometimes not enough to eat,3920,7.770223393922575
+Kauai County,15007,2021-01-06,2021-01-18,curfoodsuf,4,Often not enough to eat,3113,6.170588118694127
+Maui County,15009,2021-01-06,2021-01-18,curfoodsuf,3,Sometimes not enough to eat,9743,8.345324973447083
+Maui County,15009,2021-01-06,2021-01-18,curfoodsuf,4,Often not enough to eat,7738,6.627950800013704
 Hawaii County,15001,2020-12-09,2020-12-21,curfoodsuf,3,Sometimes not enough to eat,9228,6.5150627290120795
 Hawaii County,15001,2020-12-09,2020-12-21,curfoodsuf,4,Often not enough to eat,2235,1.5779329431449933
 Honolulu County,15003,2020-12-09,2020-12-21,curfoodsuf,3,Sometimes not enough to eat,42127,6.110817773548559
