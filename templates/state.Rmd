@@ -1,7 +1,7 @@
 ---
 params:
-  area: ""
-title: ""
+  area: "Hawaii_new 2021"
+title: "Hawaii 2021_new"
 date: "`r Sys.Date()`"
 output:
   blogdown::html_page:
@@ -433,7 +433,9 @@ v %>%
 v %>% 
   arrange(desc(date_end)) %>% 
   mutate(
-    date_end = format(date_end, "%Y %b %e") %>% str_replace("  ", " "),
+    date_end = format(date_end, "%Y %b %e") %>% str_replace("  ", " ")
+  ) %>% 
+  mutate(
     across(ends_with("_pct"), ~ format(round(., digits = 1), nsmall = 1)),
     across(ends_with("_n"), ~ signif(round(.), digits = 3))
   ) %>% 
