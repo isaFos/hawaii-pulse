@@ -1,7 +1,7 @@
 ---
 params:
-  area: "Hawaii_new 2021"
-title: "Hawaii 2021_new"
+  area: ""
+title: ""
 date: "`r Sys.Date()`"
 output:
   blogdown::html_page:
