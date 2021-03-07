@@ -1,29 +1,313 @@
 area_type,area,fips,date_start,date_end,variable,code,response,n,n_error,pct
-State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,583551,NA,59.284984989561266
-State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",306731,NA,31.16187399358945
-State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,3,Sometimes not enough to eat,75565,NA,7.676912370531791
-State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,4,Often not enough to eat,18468,NA,1.8762286463174898
-State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,NA,Did not report,88913,NA,8.284625182509977
-State,Hawaii,15,2021-01-20,2021-02-01,freefood,1,Yes,114470,NA,10.665943615015994
-State,Hawaii,15,2021-01-20,2021-02-01,freefood,2,No,846281,NA,78.85372087410981
-State,Hawaii,15,2021-01-20,2021-02-01,freefood,NA,Did not report,112478,NA,10.480335510874193
-State,Hawaii,15,2021-01-20,2021-02-01,mortconf,1,No confidence,72814,NA,NA
-State,Hawaii,15,2021-01-20,2021-02-01,mortconf,2,Slight confidence,74312,NA,NA
-State,Hawaii,15,2021-01-20,2021-02-01,mortconf,3,Moderate confidence,129624,NA,NA
-State,Hawaii,15,2021-01-20,2021-02-01,mortconf,4,High confidence,401590,NA,NA
-State,Hawaii,15,2021-01-20,2021-02-01,mortconf,5,Payment is/will be deferred,4304,NA,NA
-State,Hawaii,15,2021-01-20,2021-02-01,mortconf,NA,Did not report,390585,NA,36.39344445593625
-State,Hawaii,15,2021-01-20,2021-02-01,total,NA,Total,1073229,NA,100
-State,Hawaii,15,2021-01-20,2021-02-01,wherefree1,1,Free meals through the school or other programs aimed at children,35855,NA,31.322617279636585
-State,Hawaii,15,2021-01-20,2021-02-01,wherefree2,1,Food pantry or food bank,43143,NA,37.689350921638855
-State,Hawaii,15,2021-01-20,2021-02-01,wherefree3,1,Home-delivered meal service like Meals on Wheels,15211,NA,13.288197781078011
-State,Hawaii,15,2021-01-20,2021-02-01,wherefree4,1,"Church, synagogue, temple, mosque or other religious organization",19515,NA,17.048134882501966
-State,Hawaii,15,2021-01-20,2021-02-01,wherefree5,1,Shelter or soup kitchen,4029,NA,3.519699484581113
-State,Hawaii,15,2021-01-20,2021-02-01,wherefree6,1,Other community program,47352,NA,41.36629684633528
-State,Hawaii,15,2021-01-20,2021-02-01,wherefree7,1,"Family, friends, or neighbors",45476,NA,39.72743950380012
-State,Hawaii,15,2021-01-20,2021-02-01,wrkloss,1,Yes,573830,NA,53.46761967855882
-State,Hawaii,15,2021-01-20,2021-02-01,wrkloss,2,No,497975,NA,46.39969661647235
-State,Hawaii,15,2021-01-20,2021-02-01,wrkloss,NA,Did not report,1424,NA,0.13268370496883702
+State,Hawaii,15,2021-02-03,2021-02-15,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,599577,NA,61.67764274560391
+State,Hawaii,15,2021-02-03,2021-02-15,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",278342,NA,28.632650080134635
+State,Hawaii,15,2021-02-03,2021-02-15,curfoodsuf,3,Sometimes not enough to eat,82046,NA,8.439956630600937
+State,Hawaii,15,2021-02-03,2021-02-15,curfoodsuf,4,Often not enough to eat,12149,NA,1.2497505436605172
+State,Hawaii,15,2021-02-03,2021-02-15,curfoodsuf,NA,Did not report,101115,NA,9.42156799713761
+State,Hawaii,15,2021-02-03,2021-02-15,freefood,1,Yes,125607,NA,11.703653181194321
+State,Hawaii,15,2021-02-03,2021-02-15,freefood,2,No,841961,NA,78.45119727476614
+State,Hawaii,15,2021-02-03,2021-02-15,freefood,NA,Did not report,105661,NA,9.84514954403953
+State,Hawaii,15,2021-02-03,2021-02-15,mortconf,1,No confidence,60986,NA,NA
+State,Hawaii,15,2021-02-03,2021-02-15,mortconf,2,Slight confidence,81823,NA,NA
+State,Hawaii,15,2021-02-03,2021-02-15,mortconf,3,Moderate confidence,146256,NA,NA
+State,Hawaii,15,2021-02-03,2021-02-15,mortconf,4,High confidence,369610,NA,NA
+State,Hawaii,15,2021-02-03,2021-02-15,mortconf,5,Payment is/will be deferred,2712,NA,NA
+State,Hawaii,15,2021-02-03,2021-02-15,mortconf,NA,Did not report,411842,NA,38.37410282428075
+State,Hawaii,15,2021-02-03,2021-02-15,total,NA,Total,1073229,NA,100
+State,Hawaii,15,2021-02-03,2021-02-15,wherefree1,1,Free meals through the school or other programs aimed at children,27732,NA,22.07838735102343
+State,Hawaii,15,2021-02-03,2021-02-15,wherefree2,1,Food pantry or food bank,39691,NA,31.599353539213578
+State,Hawaii,15,2021-02-03,2021-02-15,wherefree3,1,Home-delivered meal service like Meals on Wheels,1034,NA,0.8232025285214996
+State,Hawaii,15,2021-02-03,2021-02-15,wherefree4,1,"Church, synagogue, temple, mosque or other religious organization",36266,NA,28.87259468023279
+State,Hawaii,15,2021-02-03,2021-02-15,wherefree5,1,Shelter or soup kitchen,2926,NA,2.3294880062416903
+State,Hawaii,15,2021-02-03,2021-02-15,wherefree6,1,Other community program,29830,NA,23.74867642726918
+State,Hawaii,15,2021-02-03,2021-02-15,wherefree7,1,"Family, friends, or neighbors",68375,NA,54.43566043293765
+State,Hawaii,15,2021-02-03,2021-02-15,wrkloss,1,Yes,509233,NA,47.44868057050266
+State,Hawaii,15,2021-02-03,2021-02-15,wrkloss,2,No,562160,NA,52.38024689977628
+State,Hawaii,15,2021-02-03,2021-02-15,wrkloss,NA,Did not report,1836,NA,0.17107252972105674
+State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,583551,27427,59.28495305602736
+State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",306731,23611,31.161865838881425
+State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,3,Sometimes not enough to eat,75565,13724,7.676940945458527
+State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,4,Often not enough to eat,18468,7312,1.8762401596326892
+State,Hawaii,15,2021-01-20,2021-02-01,curfoodsuf,NA,Did not report,88913,14945,8.28462799131664
+State,Hawaii,15,2021-01-20,2021-02-01,egender,1,Male,524979,0,48.91584181936026
+State,Hawaii,15,2021-01-20,2021-02-01,egender,2,Female,548250,0,51.08415818063975
+State,Hawaii,15,2021-01-20,2021-02-01,egender_curfoodsuf_1234,1,Male,475430,11426,100
+State,Hawaii,15,2021-01-20,2021-02-01,egender_curfoodsuf_1234,2,Female,508885,7871,100
+State,Hawaii,15,2021-01-20,2021-02-01,egender_curfoodsuf_34,1,Male,61065,14354,12.844094848391606
+State,Hawaii,15,2021-01-20,2021-02-01,egender_curfoodsuf_34,2,Female,32969,7455,6.478617792474336
+State,Hawaii,15,2021-01-20,2021-02-01,expctloss,1,Yes,362798,27624,33.82647675772841
+State,Hawaii,15,2021-01-20,2021-02-01,expctloss,2,No,709728,27551,66.17352324227159
+State,Hawaii,15,2021-01-20,2021-02-01,expctloss,NA,Did not report,703,558,0.065493952196626945
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn1_curfoodsuf_1234,1,Couldn't afford to buy more food,197434,22720,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn1_curfoodsuf_1234,NA,Did not report,786882,24458,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn1_curfoodsuf_34,1,Couldn't afford to buy more food,78599,17081,39.810427505703736
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn1_curfoodsuf_34,NA,Did not report,15434,5256,1.9614280020142236
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn2_curfoodsuf_1234,1,Couldn’t get out to buy food,81274,13688,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn2_curfoodsuf_1234,NA,Did not report,903042,20021,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn2_curfoodsuf_34,1,Couldn’t get out to buy food,28754,11473,35.378776691149376
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn2_curfoodsuf_34,NA,Did not report,65280,10588,7.228865910168932
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn3_curfoodsuf_1234,1,Afraid to go or didn’t want to go out to buy food,153771,22902,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn3_curfoodsuf_1234,NA,Did not report,830545,25088,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn3_curfoodsuf_34,1,Afraid to go or didn’t want to go out to buy food,22429,6985,14.585829868349025
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn3_curfoodsuf_34,NA,Did not report,71605,16510,8.621415478639937
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn4_curfoodsuf_1234,1,Couldn’t get groceries or meals delivered to me,29803,7313,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn4_curfoodsuf_1234,NA,Did not report,954513,16579,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn4_curfoodsuf_34,1,Couldn’t get groceries or meals delivered to me,12975,5786,43.53721266766096
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn4_curfoodsuf_34,NA,Did not report,81058,17245,8.492097353655547
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn5_curfoodsuf_1234,1,The stores didn’t have the food I wanted,78206,11829,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn5_curfoodsuf_1234,NA,Did not report,906110,19135,100
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn5_curfoodsuf_34,1,The stores didn’t have the food I wanted,13758,4730,17.592201843013253
+State,Hawaii,15,2021-01-20,2021-02-01,foodsufrsn5_curfoodsuf_34,NA,Did not report,80275,16749,8.859333706848542
+State,Hawaii,15,2021-01-20,2021-02-01,freefood,1,Yes,114470,16405,11.914623935007448
+State,Hawaii,15,2021-01-20,2021-02-01,freefood,2,No,846281,23497,88.08537606499254
+State,Hawaii,15,2021-01-20,2021-02-01,freefood,NA,Did not report,112478,20125,10.48030747769572
+State,Hawaii,15,2021-01-20,2021-02-01,mortconf,1,No confidence,72814,13530,10.627749858425213
+State,Hawaii,15,2021-01-20,2021-02-01,mortconf,2,Slight confidence,74312,14668,10.846339751634687
+State,Hawaii,15,2021-01-20,2021-02-01,mortconf,3,Moderate confidence,129624,15147,18.91967704169511
+State,Hawaii,15,2021-01-20,2021-02-01,mortconf,4,High confidence,401590,27686,58.61520871592951
+State,Hawaii,15,2021-01-20,2021-02-01,mortconf,5,Payment is/will be deferred,4304,2653,0.6281402594263508
+State,Hawaii,15,2021-01-20,2021-02-01,mortconf,NA,Did not report,390585,29678,36.3934810923137
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic,1,"No, not of Hispanic, Latino, or Spanish origin",980499,0,91.3597191279979
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic,2,"Yes, of Hispanic, Latino, or Spanish origin",92730,0,8.640280872002108
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_curfoodsuf_1234,1,"No, not of Hispanic, Latino, or Spanish origin",903773,16023,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_curfoodsuf_1234,2,"Yes, of Hispanic, Latino, or Spanish origin",80543,4571,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_curfoodsuf_34,1,"No, not of Hispanic, Latino, or Spanish origin",75050,16364,8.304122642068734
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_curfoodsuf_34,2,"Yes, of Hispanic, Latino, or Spanish origin",18983,5705,23.568877104577094
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,11,Non-hispanic White,243920,0,22.72767508142969
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,12,Non-hispanic Black,17708,6482,1.64998498341067
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,13,Non-hispanic Asian,339140,22871,31.59998553833364
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,14,Non-hispanic Other,379731,23136,35.382073524823895
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,21,Hispanic White,29646,6152,2.762357257084856
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,22,Hispanic Black,4500,3466,0.4192896882223794
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,23,Hispanic Asian,14290,4557,1.3314839824107303
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace,24,Hispanic Other,44294,7617,4.127149944284142
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,11,Non-hispanic White,228845,3734,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,12,Non-hispanic Black,12728,4084,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,13,Non-hispanic Asian,311601,23123,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,14,Non-hispanic Other,350599,25629,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,21,Hispanic White,28669,6266,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,22,Hispanic Black,4500,3466,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,23,Hispanic Asian,12552,4454,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_1234,24,Hispanic Other,34822,7798,100
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,11,Non-hispanic White,9543,5306,4.170111548709534
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,12,Non-hispanic Black,2309,2301,18.141962848019418
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,13,Non-hispanic Asian,25409,10075,8.154278406979634
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,14,Non-hispanic Other,37789,8741,10.778517653629057
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,21,Hispanic White,3422,3141,11.935429298393595
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,22,Hispanic Black,3232,3322,71.83353892901927
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,23,Hispanic Asian,5315,2533,42.34362478113757
+State,Hawaii,15,2021-01-20,2021-02-01,rhispanic_rrace_curfoodsuf_34,24,Hispanic Other,7014,3433,20.141711288503974
+State,Hawaii,15,2021-01-20,2021-02-01,rrace,1,"White, Alone",273566,6152,25.49003233851455
+State,Hawaii,15,2021-01-20,2021-02-01,rrace,2,"Black, Alone",22208,7145,2.0692746716330492
+State,Hawaii,15,2021-01-20,2021-02-01,rrace,3,"Asian, Alone",353430,22312,32.93146952074438
+State,Hawaii,15,2021-01-20,2021-02-01,rrace,4,"Any other race alone, or race in combination",424024,23615,39.509223469108036
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_1234,1,"White, Alone",257514,7624,100
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_1234,2,"Black, Alone",17228,5070,100
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_1234,3,"Asian, Alone",324153,22459,100
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_1234,4,"Any other race alone, or race in combination",385421,24523,100
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_34,1,"White, Alone",12965,6321,5.0346211350621735
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_34,2,"Black, Alone",5542,4073,32.16593916864068
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_34,3,"Asian, Alone",30724,10152,9.478225192634286
+State,Hawaii,15,2021-01-20,2021-02-01,rrace_curfoodsuf_34,4,"Any other race alone, or race in combination",44803,9731,11.62445376762854
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1933,NA,4953,2696,0.46150393760254116
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1934,NA,583,627,0.054357952887061384
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1935,NA,1033,743,0.0962906851986385
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1936,NA,231,230,0.021503449832245565
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1937,NA,1362,707,0.12686103019864853
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1938,NA,7746,4101,0.72174190935054094
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1939,NA,1275,922,0.11877901308580104
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1940,NA,2429,1125,0.22636808650727533
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1941,NA,7015,3247,0.6536616751507243
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1942,NA,1885,950,0.1756405010832641
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1943,NA,16166,6196,1.5063399108575857
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1944,NA,17037,7528,1.587458882823067
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1945,NA,12166,5703,1.1336194375641955
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1946,NA,13085,3720,1.2191953519115006
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1947,NA,11428,2995,1.0648237589149645
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1948,NA,6386,1721,0.5950405410460455
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1949,NA,15654,3987,1.4585572075621802
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1950,NA,21900,5379,2.0405311425679433
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1951,NA,17617,4544,1.6414503820599755
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1952,NA,17195,5876,1.6022009781838968
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1953,NA,30671,12112,2.857838012741895
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1954,NA,24388,9600,2.272385296623713
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1955,NA,14227,3845,1.3255793434855774
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1956,NA,28819,8589,2.6852831915028226
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1957,NA,14549,4420,1.3556625081438334
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1958,NA,15278,5611,1.423568843474909
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1959,NA,15344,4637,1.4296990953931885
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1960,NA,25796,7402,2.4036068760201577
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1961,NA,13527,5027,1.2603668152795435
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1962,NA,22879,6407,2.131766116548377
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1963,NA,22741,7567,2.1189193660198256
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1964,NA,23377,7567,2.1782133668966472
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1965,NA,13786,4742,1.2845222731818295
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1966,NA,16583,5515,1.5451374945578211
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1967,NA,16484,5302,1.5359706076175643
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1968,NA,21133,5821,1.9691485332301066
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1969,NA,17587,5277,1.6387017628808427
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1970,NA,15638,5458,1.457056513948794
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1971,NA,13190,5567,1.2289881500049225
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1972,NA,13780,5048,1.2839408548703595
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1973,NA,19077,6408,1.7775012320380044
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1974,NA,16616,5186,1.548248363904439
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1975,NA,26778,8025,2.495051737773844
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1976,NA,15459,3952,1.4403813146846962
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1977,NA,34472,11881,3.2119499743304125
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1978,NA,19899,5401,1.854135670494326
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1979,NA,36218,11639,3.3746549328612425
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1980,NA,18622,5223,1.7351674972423345
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1981,NA,14006,4345,1.3050307982543075
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1982,NA,51843,18413,4.830555368817361
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1983,NA,25659,11460,2.390806846154205
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1984,NA,21341,7287,1.9884810191087121
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1985,NA,18364,9879,1.7110977082476164
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1986,NA,9695,4748,0.9033666048350028
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1987,NA,13141,5652,1.2244206198794765
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1988,NA,33631,12627,3.1336623384362645
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1989,NA,16119,7722,1.5019625796207272
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1990,NA,16042,6470,1.4947074854208837
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1991,NA,6712,3563,0.625370667459901
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1992,NA,25222,13402,2.3501298667415904
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1993,NA,20475,8987,1.9078251045293995
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1994,NA,2416,1972,0.22507490137809907
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1995,NA,8955,3954,0.8343776612124996
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1996,NA,3547,2402,0.3304781476508464
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1997,NA,9470,6394,0.8823503849145471
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1998,NA,11380,5069,1.0603294534070045
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,1999,NA,2870,2202,0.26743808054025536
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,2000,NA,5397,3963,0.5029162694637016
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,2001,NA,5581,3704,0.51997946445285
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year,2002,NA,7301,5325,0.6802670493346251
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1933,NA,4953,2696,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1934,NA,583,627,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1935,NA,1033,743,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1936,NA,231,230,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1937,NA,1362,707,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1938,NA,7746,4101,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1939,NA,691,708,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1940,NA,1509,815,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1941,NA,7015,3247,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1942,NA,1885,950,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1943,NA,16166,6196,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1944,NA,16360,7502,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1945,NA,12166,5703,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1946,NA,13085,3720,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1947,NA,11135,2985,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1948,NA,6386,1721,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1949,NA,14789,3943,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1950,NA,21255,5334,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1951,NA,17323,4526,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1952,NA,17195,5876,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1953,NA,29615,12175,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1954,NA,22903,9520,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1955,NA,13689,3923,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1956,NA,23966,7402,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1957,NA,13476,4206,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1958,NA,15022,5718,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1959,NA,15344,4637,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1960,NA,24264,7344,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1961,NA,7873,2917,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1962,NA,19963,5991,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1963,NA,22090,7613,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1964,NA,23377,7567,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1965,NA,13532,4759,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1966,NA,16583,5515,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1967,NA,15898,5168,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1968,NA,19825,5850,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1969,NA,17225,5225,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1970,NA,15638,5458,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1971,NA,13190,5567,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1972,NA,13780,5048,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1973,NA,18698,6395,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1974,NA,12643,4474,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1975,NA,25469,7955,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1976,NA,14803,3932,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1977,NA,34086,11891,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1978,NA,18812,5255,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1979,NA,35240,11605,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1980,NA,12872,3971,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1981,NA,11822,4083,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1982,NA,49301,18680,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1983,NA,19550,10615,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1984,NA,19799,7047,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1985,NA,14543,9644,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1986,NA,9044,4882,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1987,NA,7345,3863,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1988,NA,30867,12532,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1989,NA,15117,7680,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1990,NA,16042,6470,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1991,NA,5282,2621,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1992,NA,23735,13024,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1993,NA,19478,9019,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1994,NA,1747,1838,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1995,NA,6465,2826,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1996,NA,2673,2083,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1997,NA,9470,6394,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1998,NA,4573,3343,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,1999,NA,1017,1129,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,2000,NA,2855,2949,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,2001,NA,3547,3048,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_1234,2002,NA,7301,5325,100
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1947,NA,1394,1504,12.515933250093589
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1949,NA,3660,2510,24.748930865228058
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1950,NA,418,408,1.9688534490110854
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1951,NA,583,597,3.3676305616775126
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1952,NA,163,171,0.9470231214695357
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1953,NA,4732,4752,15.979253262234598
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1955,NA,692,675,5.057513889467092
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1956,NA,816,829,3.4056319561319572
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1957,NA,2657,1746,19.717807594057955
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1958,NA,889,888,5.917384020726494
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1959,NA,1283,1078,8.36028715831399
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1960,NA,2425,1733,9.992648475371698
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1961,NA,257,267,3.259115813020271
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1962,NA,1529,1480,7.661136583837144
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1964,NA,10459,5741,44.73890729922167
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1965,NA,5500,3484,40.6452861702954
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1969,NA,3000,2425,17.419139983590895
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1970,NA,3627,2720,23.19193282521762
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1971,NA,3657,2673,27.725390252854297
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1972,NA,410,418,2.9739850013051163
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1973,NA,2182,1400,11.671582922639644
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1974,NA,4003,3837,31.662822439290775
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1975,NA,914,750,3.589729551014523
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1976,NA,725,756,4.8975781009742425
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1977,NA,972,743,2.8513624742202177
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1978,NA,587,594,3.117617382653996
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1979,NA,1392,1382,3.9494752887677924
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1981,NA,4467,3227,37.78294650885114
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1982,NA,3196,2135,6.482970977142357
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1984,NA,5284,3800,26.6896779623695
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1985,NA,10674,9448,73.39497188477233
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1986,NA,715,1273,7.901673968228246
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1988,NA,4758,3576,15.41590778618632
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1995,NA,1487,1357,23.008468725198824
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1996,NA,1671,1772,62.5
+State,Hawaii,15,2021-01-20,2021-02-01,tbirth_year_curfoodsuf_34,1998,NA,2855,2948,62.436495684133355
+State,Hawaii,15,2021-01-20,2021-02-01,tenure,1,Owned free and clear,171297,16367,19.747527314778996
+State,Hawaii,15,2021-01-20,2021-02-01,tenure,2,Owned with a mortgage or loan (including home equity loans),383941,26071,44.26169666198524
+State,Hawaii,15,2021-01-20,2021-02-01,tenure,3,Rented,301188,26262,34.72171367996618
+State,Hawaii,15,2021-01-20,2021-02-01,tenure,4,Occupied without payment of rent,11008,5070,1.2690623432695896
+State,Hawaii,15,2021-01-20,2021-02-01,tenure,NA,Did not report,205794,23340,19.17520729728313
+State,Hawaii,15,2021-01-20,2021-02-01,total,NA,Total,1073229,0,100
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree1,1,Free meals through the school or other programs aimed at children,35855,9782,31.322498106169892
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree1,NA,Did not report,1037374,9782,96.65916280188877
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree2,1,Food pantry or food bank,43143,10909,37.6895262151368
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree2,NA,Did not report,1030086,10909,95.98005974070392
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree3,1,Home-delivered meal service like Meals on Wheels,15211,6398,13.288123308395484
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree3,NA,Did not report,1058018,6398,98.58269744350206
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree4,1,"Church, synagogue, temple, mosque or other religious organization",19515,6724,17.04793096679203
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree4,NA,Did not report,1053714,6724,98.18167881336795
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree5,1,Shelter or soup kitchen,4029,3338,3.519975376694589
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree5,NA,Did not report,1069200,3338,99.62456172445006
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree6,1,Other community program,47352,12831,41.36666861079359
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree6,NA,Did not report,1025877,12831,95.58785813352297
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree7,1,"Family, friends, or neighbors",45476,11166,39.72771611557234
+State,Hawaii,15,2021-01-20,2021-02-01,wherefree7,NA,Did not report,1027753,11166,95.76266773662081
+State,Hawaii,15,2021-01-20,2021-02-01,wrkloss,1,Yes,573830,27776,53.538625941797804
+State,Hawaii,15,2021-01-20,2021-02-01,wrkloss,2,No,497975,28001,46.461374058202196
+State,Hawaii,15,2021-01-20,2021-02-01,wrkloss,NA,Did not report,1424,874,0.13268842642210407
 State,Hawaii,15,2021-01-06,2021-01-18,curfoodsuf,1,Enough of the kinds of food (I/we) wanted to eat,549826,30214,57.46821506851601
 State,Hawaii,15,2021-01-06,2021-01-18,curfoodsuf,2,"Enough, but not always the kinds of food (I/we) wanted to eat",309296,29602,32.32781247631971
 State,Hawaii,15,2021-01-06,2021-01-18,curfoodsuf,3,Sometimes not enough to eat,54414,9461,5.687335308799381
