@@ -279,27 +279,22 @@ choropleth <- function(data, var, population, tooltip, legend_title) {
   values <- 
     data %>% 
     pull({{var}})
-  
-  # bins <-
-  #   Hmisc::wtd.quantile(
-  #     values,
-  #     weights = data %>% pull({{population}}),
-  #     probs = seq(0, 1, length.out = N_BINS + 1)
-  #   )
+    
   bins <-
-    values[!is.na(values)] %>% 
-    unique() %>%
-    sort() %>% 
-    c(0, .)
+    Hmisc::wtd.quantile(
+      values,
+      weights = data %>% pull({{population}}),
+      probs = seq(0, 1, length.out = N_BINS + 1)
+    )
   
   values[near(values, min(bins))] <- min(bins)
   values[near(values, max(bins))] <- max(bins)
+
   fill_color <- 
     colorBin(
       palette = MAP_COLOR_PALETTE,
       domain = values,
-      bins = bins,
-      right = TRUE
+      bins = bins
     )
   
   tooltips <-
@@ -347,7 +342,7 @@ choropleth <- function(data, var, population, tooltip, legend_title) {
       pal = fill_color,
       values = values,
       opacity = 1,
-      labFormat = labelFormat(suffix = "%"),
+      labFormat = labelFormat(suffix = "%", digits = 1),
       title = legend_title
     )
 }
@@ -418,7 +413,7 @@ v %>%
     labels = scales::label_percent(accuracy = 1, scale = 1),
     limits = c(0, NA)
   ) +
-  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  theme(axis.text.x = element_text(size = rel(0.75), angle = -45, hjust = 0)) +
   labs(
     title = "Food insufficiency during the prior 7 days",
     x = "Survey end date",
@@ -756,7 +751,7 @@ v %>%
   ) +
   guides(color = guide_legend(ncol = 2)) +
   theme(
-    axis.text.x = element_text(angle = -45, hjust = 0),
+    axis.text.x = element_text(size = rel(0.75), angle = -45, hjust = 0),
     legend.position = "bottom"
   ) +
   labs(
@@ -795,7 +790,7 @@ v %>%
   ) +
   scale_color_discrete(direction = -1) +
   theme(
-    axis.text.x = element_text(angle = -45, hjust = 0),
+    axis.text.x = element_text(size = rel(0.75), angle = -45, hjust = 0),
     legend.position = "bottom"
   ) +
   labs(
@@ -828,7 +823,7 @@ v %>%
     labels = scales::label_percent(accuracy = 1, scale = 1),
     limits = c(0, NA)
   ) +
-  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  theme(axis.text.x = element_text(size = rel(0.75), angle = -45, hjust = 0)) +
   labs(
     title = 
       "During the last 7 days, did you or anyone in\nyour household get free groceries or a free meal?",
@@ -863,7 +858,7 @@ v %>%
   ) +
   guides(color = guide_legend(ncol = 2)) +
   theme(
-    axis.text.x = element_text(angle = -45, hjust = 0),
+    axis.text.x = element_text(size = rel(0.75), angle = -45, hjust = 0),
     legend.position = "bottom"
   ) +
   labs(
