@@ -279,22 +279,27 @@ choropleth <- function(data, var, population, tooltip, legend_title) {
   values <- 
     data %>% 
     pull({{var}})
-    
+  
+  # bins <-
+  #   Hmisc::wtd.quantile(
+  #     values,
+  #     weights = data %>% pull({{population}}),
+  #     probs = seq(0, 1, length.out = N_BINS + 1)
+  #   )
   bins <-
-    Hmisc::wtd.quantile(
-      values,
-      weights = data %>% pull({{population}}),
-      probs = seq(0, 1, length.out = N_BINS + 1)
-    )
+    values[!is.na(values)] %>% 
+    unique() %>%
+    sort() %>% 
+    c(0, .)
   
   values[near(values, min(bins))] <- min(bins)
   values[near(values, max(bins))] <- max(bins)
-
   fill_color <- 
     colorBin(
       palette = MAP_COLOR_PALETTE,
       domain = values,
-      bins = bins
+      bins = bins,
+      right = TRUE
     )
   
   tooltips <-
@@ -342,7 +347,7 @@ choropleth <- function(data, var, population, tooltip, legend_title) {
       pal = fill_color,
       values = values,
       opacity = 1,
-      labFormat = labelFormat(suffix = "%", digits = 1),
+      labFormat = labelFormat(suffix = "%"),
       title = legend_title
     )
 }
