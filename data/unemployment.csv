@@ -1,5 +1,6 @@
 area_type,area,fips,date,status,labor_force,employment,unemployment,unemployment_rate
-State,Hawaii,15,2021-03-01,Preliminary,651735,595860,55875,8.6
+State,Hawaii,15,2021-04-01,Preliminary,653202,600211,52991,8.1
+State,Hawaii,15,2021-03-01,Final,652552,596010,56542,8.7
 Region,Balance,NA,2021-03-01,Preliminary,651736,595860,55876,8.6
 County,Hawaii County,15001,2021-03-01,Preliminary,89203,81694,7509,8.4
 County,Honolulu County,15003,2021-03-01,Preliminary,448485,414313,34172,7.6
