@@ -3,7 +3,7 @@
 # Source: https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html
 
 # Author: Bill Behrman
-# Version: 2021-02-10
+# Version: 2021-05-19
 
 # Libraries
 library(tidyverse)
@@ -40,12 +40,18 @@ fs::dir_create(str_glue(dir_pulse))
 
 # Determine weeks that have not been downloaded
 if (httr::http_error(str_glue(url_pulse))) {
+  message("HTTP error: ", str_glue(url_pulse))
   weeks <- NULL
 } else {
-  weeks_pulse <-
+  files <-
     str_glue(url_pulse) %>%
     read_html(css = css_pulse) %>%
-    html_table() %>%
+    html_table()
+  if (is.list(files)) {
+    files <- first(files)
+  }
+  weeks_pulse <-
+    files %>%
     pluck(2) %>%
     unlist() %>%
     map_chr(str_extract, pattern = "wk\\d+") %>%
@@ -62,10 +68,15 @@ download <- function(week) {
   cli::cat_line(cli::rule(str_glue("Downloading: {week}")))
 
   # URL for data file
-  file_pulse <-
+  files <-
     str_glue(url_pulse, "/{week}") %>%
     read_html(css = css_pulse) %>%
-    html_table() %>%
+    html_table()
+  if (is.list(files)) {
+    files <- first(files)
+  }
+  file_pulse <-
+    files %>%
     pluck(2) %>%
     unlist() %>%
     str_extract(pattern = "^HPS_.*_PUF_CSV") %>%
